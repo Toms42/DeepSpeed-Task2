@@ -1,0 +1,133 @@
+Starting Docker Image
+/data/datasets/tscherli/task2
+CONTAINER ID        IMAGE                              COMMAND                  CREATED             STATUS              PORTS                NAMES
+85bcaf470bb1        jenkins/autel_base_latest:ci       "/bin/sh -c /bin/bash"   26 hours ago        Up 26 hours                              autel_central-autel_world-feature_integration-tests-c29597947f811d3eaaf005054456ea28
+1c9c66993096        harjatin/hrl:v1                    "/bin/bash"              3 days ago          Up 3 days                                desperate_dubinsky
+dcb23e16e506        harjatin/hrl:v1                    "/bin/bash"              5 days ago          Up 5 days                                gigantic_galileo
+1da414a72189        weikunz/shimizu:v2                 "/ros_entrypoint.sh b"   5 days ago          Up 5 days                                desperate_kowalevski
+a381cd08eccc        harjatin/hrl:v1                    "/bin/bash"              5 days ago          Up 5 days                                high_bose
+e7c0b42f848c        weikunz/shimizu:v2                 "/ros_entrypoint.sh b"   5 days ago          Up 5 days                                cranky_dubinsky
+e7e7a8d20598        harjatin/hrl:v1                    "/bin/bash"              5 days ago          Up 5 days                                thirsty_franklin1
+3f1722e5020a        weikunz/shimizu:v2                 "/ros_entrypoint.sh b"   6 days ago          Up 6 days                                gloomy_panini
+41917aad625b        cb3e5db5a295                       "/bin/sh -c /bin/bash"   6 days ago          Up 3 days                                autel_integration_tests_ulimit
+f19852b6aa2f        weikunz/shimizu:v2                 "/ros_entrypoint.sh b"   7 days ago          Up 7 days                                reverent_varahamihira
+6215bc906b47        harjatin/hrl:v1                    "/bin/bash"              7 days ago          Up 7 days                                fervent_cray
+99c42c67bb17        deron/pytorch:1.0.0                "/bin/bash"              8 days ago          Up 8 days                                drunk_leavitt
+24dcc62c5fff        harjatin/hrl:v1                    "/bin/bash"              2 weeks ago         Up 2 weeks                               big_poitras
+a488809b68b6        tanparhar/mono_depth               "/bin/bash"              2 weeks ago         Up 2 weeks          6006/tcp, 8888/tcp   condescending_volhard
+9d6cf6cd468b        harjatin/rl                        "/bin/bash"              2 weeks ago         Up 2 weeks                               serene_archimedes
+0185e2e29e48        486b93298176                       "/bin/sh -c /bin/bash"   2 weeks ago         Up 2 weeks                               high_aryabhata
+3b31420b3769        486b93298176                       "/bin/sh -c /bin/bash"   2 weeks ago         Up 2 weeks                               reverent_darwin
+7d53664d47fa        950830590d6c                       "/bin/sh -c /bin/bash"   2 weeks ago         Up 2 weeks          6006/tcp, 8888/tcp   furious_mcclintock
+d40879a6d99a        shastrir/deep_learning:v1          "/bin/bash"              2 weeks ago         Up 2 weeks                               high_euclid
+fad5666a97e6        e189d1a18e7d                       "/ros_entrypoint.sh b"   3 weeks ago         Up 3 weeks                               jingfenl_fusion
+7ed45aed36c5        deron/pytorch:1.0.0                "/bin/bash"              5 weeks ago         Up 5 weeks                               sick_joliot
+2e5213824aa1        himanshi/hsi_work:latest           "/bin/bash"              6 weeks ago         Up 6 weeks          6006/tcp, 8888/tcp   big_almeida
+460a97509432        himanshi/hsi_work:latest           "/bin/bash"              6 weeks ago         Up 6 weeks          6006/tcp, 8888/tcp   grave_colden
+d6e29d4ce64b        himanshi/hsi_work:latest           "/bin/bash"              6 weeks ago         Up 6 weeks          6006/tcp, 8888/tcp   grave_stonebraker
+d75206287137        himanshi/hsi_work:latest           "/bin/bash"              6 weeks ago         Up 6 weeks          6006/tcp, 8888/tcp   gloomy_kirch
+e881615bcf09        himanshi/hsi_work:latest           "/bin/bash"              6 weeks ago         Up 6 weeks          6006/tcp, 8888/tcp   determined_kirch
+3fd10438dcf6        d5bd939a5a2b                       "/ros_entrypoint.sh b"   6 weeks ago         Up 6 weeks                               tiny_blackwell
+6cdce8e76260        d5bd939a5a2b                       "/ros_entrypoint.sh b"   6 weeks ago         Up 6 weeks                               drunk_heyrovsky
+882ec2025e84        himanshi/hsi_work:latest           "/bin/bash"              6 weeks ago         Up 6 weeks          6006/tcp, 8888/tcp   determined_roentgen
+914028d4d5a5        himanshi/hsi_work:latest           "/bin/bash"              6 weeks ago         Up 6 weeks          6006/tcp, 8888/tcp   amazing_lovelace
+ad8e01cb91af        himanshi/hsi_work:latest           "/bin/bash"              6 weeks ago         Up 6 weeks          6006/tcp, 8888/tcp   suspicious_dijkstra
+ce349f3c02b1        himanshi/hsi_work:latest           "/bin/bash"              6 weeks ago         Up 6 weeks          6006/tcp, 8888/tcp   stoic_leavitt
+de2353cfbab1        himanshi/hsi_work:latest           "/bin/bash"              6 weeks ago         Up 6 weeks          6006/tcp, 8888/tcp   mad_babbage
+0148a82b8445        himanshi/hsi_work:latest           "/bin/bash"              7 weeks ago         Up 7 weeks          6006/tcp, 8888/tcp   kickass_swirles
+3d9cdaa97aab        d5bd939a5a2b                       "/ros_entrypoint.sh b"   7 weeks ago         Up 7 weeks                               sleepy_bassi
+7934c432ac31        d5bd939a5a2b                       "/ros_entrypoint.sh b"   7 weeks ago         Up 7 weeks                               small_einstein
+b27b698830cd        d5bd939a5a2b                       "/ros_entrypoint.sh b"   7 weeks ago         Up 7 weeks                               distracted_varahamihira
+d4f57d784b77        d5bd939a5a2b                       "/ros_entrypoint.sh b"   7 weeks ago         Up 7 weeks                               hopeful_yonath
+9d5a888f6664        d5bd939a5a2b                       "/ros_entrypoint.sh b"   7 weeks ago         Up 7 weeks                               sharp_minsky
+387bc0cb84ee        d5bd939a5a2b                       "/ros_entrypoint.sh b"   7 weeks ago         Up 7 weeks                               high_shockley
+c7edf0040d7d        himanshi/hsi_work:latest           "/bin/bash"              7 weeks ago         Up 7 weeks          6006/tcp, 8888/tcp   high_saha
+1359d21340a7        himanshi/hsi_work:latest           "/bin/bash"              7 weeks ago         Up 7 weeks          6006/tcp, 8888/tcp   mad_lalande
+e0aa756ce419        010297c60555                       "/ros_entrypoint.sh b"   7 weeks ago         Up 7 weeks                               cocky_lalande
+66b9985e1af9        himanshi/lasagne:v1                "/bin/bash"              10 weeks ago        Up 10 weeks                              pedantic_kalam
+f1ebb9f470c6        himanshi/lasagne:v1                "/bin/bash"              10 weeks ago        Up 10 weeks                              admiring_shirley
+96aab2710e0a        himanshi/lasagne:v1                "/bin/bash"              10 weeks ago        Up 10 weeks                              stoic_aryabhata
+b754c9ff4c26        kaixhin/lasagne                    "/bin/bash"              10 weeks ago        Up 10 weeks                              small_shaw
+645d0149c32d        tleyden5iwx/ubuntu-cuda            "/bin/bash"              10 weeks ago        Up 10 weeks                              pensive_borg
+1900f6ccdf28        animoid/cuda-lasagne               "/bin/bash"              10 weeks ago        Up 10 weeks                              admiring_sammet
+246e5346d97f        himanshi/hsi_work:latest           "/bin/bash"              12 weeks ago        Up 12 weeks         6006/tcp, 8888/tcp   prickly_bhaskara
+aedffabb9601        himanshi/hsi_work:latest           "/bin/bash"              12 weeks ago        Up 12 weeks         6006/tcp, 8888/tcp   big_meninsky
+e4573a59c8f1        60a14e716ac0                       "/bin/bash"              12 weeks ago        Up 12 weeks         6006/tcp, 8888/tcp   angry_mcnulty
+be2fd215ecde        tensorflow/tensorflow:latest-gpu   "/bin/bash"              12 weeks ago        Up 12 weeks         6006/tcp, 8888/tcp   drunk_albattani
+7937f3a28548        60a14e716ac0                       "/bin/bash"              12 weeks ago        Up 12 weeks         6006/tcp, 8888/tcp   compassionate_colden
+618e3d0bcd6c        60a14e716ac0                       "/bin/bash"              12 weeks ago        Up 12 weeks         6006/tcp, 8888/tcp   nostalgic_bohr
+59e87cf8461e        tanparhar/monodepth_gan            "/bin/bash"              12 weeks ago        Up 12 weeks         6006/tcp, 8888/tcp   gloomy_ardinghelli
+3bc5c4578dff        himanshi/eqa:latest                "/bin/bash"              3 months ago        Up 3 months                              stoic_euler
+05e9aed44a6c        60a14e716ac0                       "/bin/bash"              3 months ago        Up 3 months         6006/tcp, 8888/tcp   stoic_fermi
+b62d318aa509        60a14e716ac0                       "/bin/bash"              3 months ago        Up 3 months         6006/tcp, 8888/tcp   awesome_ride
+727ebbc4d162        60a14e716ac0                       "/bin/bash"              3 months ago        Up 3 months         6006/tcp, 8888/tcp   kickass_northcutt
+49c98c8b761d        60a14e716ac0                       "/bin/bash"              3 months ago        Up 3 months         6006/tcp, 8888/tcp   cranky_snyder
+3f08e99b55a0        rbonatti/pytorch_new               "/bin/bash"              3 months ago        Up 3 months                              sharp_easley
+217fc34482eb        cherieh/pytorch-ros-uncrashable    "/bin/bash"              3 months ago        Up 3 months                              determined_meitner
+46d49a66c35b        cherieh/pytorch-ros-uncrashable    "/bin/bash"              3 months ago        Up 3 months                              hungry_shirley
+CONTAINER ID        IMAGE                              COMMAND                  CREATED             STATUS              PORTS                NAMES
+85bcaf470bb1        jenkins/autel_base_latest:ci       "/bin/sh -c /bin/bash"   26 hours ago        Up 26 hours                              autel_central-autel_world-feature_integration-tests-c29597947f811d3eaaf005054456ea28
+1c9c66993096        harjatin/hrl:v1                    "/bin/bash"              3 days ago          Up 3 days                                desperate_dubinsky
+dcb23e16e506        harjatin/hrl:v1                    "/bin/bash"              5 days ago          Up 5 days                                gigantic_galileo
+1da414a72189        weikunz/shimizu:v2                 "/ros_entrypoint.sh b"   5 days ago          Up 5 days                                desperate_kowalevski
+a381cd08eccc        harjatin/hrl:v1                    "/bin/bash"              5 days ago          Up 5 days                                high_bose
+e7c0b42f848c        weikunz/shimizu:v2                 "/ros_entrypoint.sh b"   5 days ago          Up 5 days                                cranky_dubinsky
+e7e7a8d20598        harjatin/hrl:v1                    "/bin/bash"              5 days ago          Up 5 days                                thirsty_franklin1
+3f1722e5020a        weikunz/shimizu:v2                 "/ros_entrypoint.sh b"   6 days ago          Up 6 days                                gloomy_panini
+41917aad625b        cb3e5db5a295                       "/bin/sh -c /bin/bash"   6 days ago          Up 3 days                                autel_integration_tests_ulimit
+f19852b6aa2f        weikunz/shimizu:v2                 "/ros_entrypoint.sh b"   7 days ago          Up 7 days                                reverent_varahamihira
+6215bc906b47        harjatin/hrl:v1                    "/bin/bash"              7 days ago          Up 7 days                                fervent_cray
+99c42c67bb17        deron/pytorch:1.0.0                "/bin/bash"              8 days ago          Up 8 days                                drunk_leavitt
+24dcc62c5fff        harjatin/hrl:v1                    "/bin/bash"              2 weeks ago         Up 2 weeks                               big_poitras
+a488809b68b6        tanparhar/mono_depth               "/bin/bash"              2 weeks ago         Up 2 weeks          6006/tcp, 8888/tcp   condescending_volhard
+9d6cf6cd468b        harjatin/rl                        "/bin/bash"              2 weeks ago         Up 2 weeks                               serene_archimedes
+0185e2e29e48        486b93298176                       "/bin/sh -c /bin/bash"   2 weeks ago         Up 2 weeks                               high_aryabhata
+3b31420b3769        486b93298176                       "/bin/sh -c /bin/bash"   2 weeks ago         Up 2 weeks                               reverent_darwin
+7d53664d47fa        950830590d6c                       "/bin/sh -c /bin/bash"   2 weeks ago         Up 2 weeks          6006/tcp, 8888/tcp   furious_mcclintock
+d40879a6d99a        shastrir/deep_learning:v1          "/bin/bash"              2 weeks ago         Up 2 weeks                               high_euclid
+fad5666a97e6        e189d1a18e7d                       "/ros_entrypoint.sh b"   3 weeks ago         Up 3 weeks                               jingfenl_fusion
+7ed45aed36c5        deron/pytorch:1.0.0                "/bin/bash"              5 weeks ago         Up 5 weeks                               sick_joliot
+2e5213824aa1        himanshi/hsi_work:latest           "/bin/bash"              6 weeks ago         Up 6 weeks          6006/tcp, 8888/tcp   big_almeida
+460a97509432        himanshi/hsi_work:latest           "/bin/bash"              6 weeks ago         Up 6 weeks          6006/tcp, 8888/tcp   grave_colden
+d6e29d4ce64b        himanshi/hsi_work:latest           "/bin/bash"              6 weeks ago         Up 6 weeks          6006/tcp, 8888/tcp   grave_stonebraker
+d75206287137        himanshi/hsi_work:latest           "/bin/bash"              6 weeks ago         Up 6 weeks          6006/tcp, 8888/tcp   gloomy_kirch
+e881615bcf09        himanshi/hsi_work:latest           "/bin/bash"              6 weeks ago         Up 6 weeks          6006/tcp, 8888/tcp   determined_kirch
+3fd10438dcf6        d5bd939a5a2b                       "/ros_entrypoint.sh b"   6 weeks ago         Up 6 weeks                               tiny_blackwell
+6cdce8e76260        d5bd939a5a2b                       "/ros_entrypoint.sh b"   6 weeks ago         Up 6 weeks                               drunk_heyrovsky
+882ec2025e84        himanshi/hsi_work:latest           "/bin/bash"              6 weeks ago         Up 6 weeks          6006/tcp, 8888/tcp   determined_roentgen
+914028d4d5a5        himanshi/hsi_work:latest           "/bin/bash"              6 weeks ago         Up 6 weeks          6006/tcp, 8888/tcp   amazing_lovelace
+ad8e01cb91af        himanshi/hsi_work:latest           "/bin/bash"              6 weeks ago         Up 6 weeks          6006/tcp, 8888/tcp   suspicious_dijkstra
+ce349f3c02b1        himanshi/hsi_work:latest           "/bin/bash"              6 weeks ago         Up 6 weeks          6006/tcp, 8888/tcp   stoic_leavitt
+de2353cfbab1        himanshi/hsi_work:latest           "/bin/bash"              6 weeks ago         Up 6 weeks          6006/tcp, 8888/tcp   mad_babbage
+0148a82b8445        himanshi/hsi_work:latest           "/bin/bash"              7 weeks ago         Up 7 weeks          6006/tcp, 8888/tcp   kickass_swirles
+3d9cdaa97aab        d5bd939a5a2b                       "/ros_entrypoint.sh b"   7 weeks ago         Up 7 weeks                               sleepy_bassi
+7934c432ac31        d5bd939a5a2b                       "/ros_entrypoint.sh b"   7 weeks ago         Up 7 weeks                               small_einstein
+b27b698830cd        d5bd939a5a2b                       "/ros_entrypoint.sh b"   7 weeks ago         Up 7 weeks                               distracted_varahamihira
+d4f57d784b77        d5bd939a5a2b                       "/ros_entrypoint.sh b"   7 weeks ago         Up 7 weeks                               hopeful_yonath
+9d5a888f6664        d5bd939a5a2b                       "/ros_entrypoint.sh b"   7 weeks ago         Up 7 weeks                               sharp_minsky
+387bc0cb84ee        d5bd939a5a2b                       "/ros_entrypoint.sh b"   7 weeks ago         Up 7 weeks                               high_shockley
+c7edf0040d7d        himanshi/hsi_work:latest           "/bin/bash"              7 weeks ago         Up 7 weeks          6006/tcp, 8888/tcp   high_saha
+1359d21340a7        himanshi/hsi_work:latest           "/bin/bash"              7 weeks ago         Up 7 weeks          6006/tcp, 8888/tcp   mad_lalande
+e0aa756ce419        010297c60555                       "/ros_entrypoint.sh b"   7 weeks ago         Up 7 weeks                               cocky_lalande
+66b9985e1af9        himanshi/lasagne:v1                "/bin/bash"              10 weeks ago        Up 10 weeks                              pedantic_kalam
+f1ebb9f470c6        himanshi/lasagne:v1                "/bin/bash"              10 weeks ago        Up 10 weeks                              admiring_shirley
+96aab2710e0a        himanshi/lasagne:v1                "/bin/bash"              10 weeks ago        Up 10 weeks                              stoic_aryabhata
+b754c9ff4c26        kaixhin/lasagne                    "/bin/bash"              10 weeks ago        Up 10 weeks                              small_shaw
+645d0149c32d        tleyden5iwx/ubuntu-cuda            "/bin/bash"              10 weeks ago        Up 10 weeks                              pensive_borg
+1900f6ccdf28        animoid/cuda-lasagne               "/bin/bash"              10 weeks ago        Up 10 weeks                              admiring_sammet
+246e5346d97f        himanshi/hsi_work:latest           "/bin/bash"              12 weeks ago        Up 12 weeks         6006/tcp, 8888/tcp   prickly_bhaskara
+aedffabb9601        himanshi/hsi_work:latest           "/bin/bash"              12 weeks ago        Up 12 weeks         6006/tcp, 8888/tcp   big_meninsky
+e4573a59c8f1        60a14e716ac0                       "/bin/bash"              12 weeks ago        Up 12 weeks         6006/tcp, 8888/tcp   angry_mcnulty
+be2fd215ecde        tensorflow/tensorflow:latest-gpu   "/bin/bash"              12 weeks ago        Up 12 weeks         6006/tcp, 8888/tcp   drunk_albattani
+7937f3a28548        60a14e716ac0                       "/bin/bash"              12 weeks ago        Up 12 weeks         6006/tcp, 8888/tcp   compassionate_colden
+618e3d0bcd6c        60a14e716ac0                       "/bin/bash"              12 weeks ago        Up 12 weeks         6006/tcp, 8888/tcp   nostalgic_bohr
+59e87cf8461e        tanparhar/monodepth_gan            "/bin/bash"              12 weeks ago        Up 12 weeks         6006/tcp, 8888/tcp   gloomy_ardinghelli
+3bc5c4578dff        himanshi/eqa:latest                "/bin/bash"              3 months ago        Up 3 months                              stoic_euler
+05e9aed44a6c        60a14e716ac0                       "/bin/bash"              3 months ago        Up 3 months         6006/tcp, 8888/tcp   stoic_fermi
+b62d318aa509        60a14e716ac0                       "/bin/bash"              3 months ago        Up 3 months         6006/tcp, 8888/tcp   awesome_ride
+727ebbc4d162        60a14e716ac0                       "/bin/bash"              3 months ago        Up 3 months         6006/tcp, 8888/tcp   kickass_northcutt
+49c98c8b761d        60a14e716ac0                       "/bin/bash"              3 months ago        Up 3 months         6006/tcp, 8888/tcp   cranky_snyder
+3f08e99b55a0        rbonatti/pytorch_new               "/bin/bash"              3 months ago        Up 3 months                              sharp_easley
+217fc34482eb        cherieh/pytorch-ros-uncrashable    "/bin/bash"              3 months ago        Up 3 months                              determined_meitner
+46d49a66c35b        cherieh/pytorch-ros-uncrashable    "/bin/bash"              3 months ago        Up 3 months                              hungry_shirley
+Done!

@@ -1,0 +1,53 @@
+/home/tscherli/.bashrc: line 15: bind: warning: line editing not enabled
+/home/tscherli/.bashrc: line 16: bind: warning: line editing not enabled
+/home/tscherli/.bashrc: line 17: bind: warning: line editing not enabled
+/home/tscherli/.bashrc: line 18: bind: warning: line editing not enabled
++ wait
++ nvidia-docker run -v /data/datasets:/data/datasets -v /home/tscherli:/home/tscherli tscherli/alphatraining python3 /data/datasets/tscherli/task2/train/basic.py
+2019-03-02 23:22:28.807146: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-03-02 23:22:29.072776: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1432] Found device 0 with properties: 
+name: TITAN X (Pascal) major: 6 minor: 1 memoryClockRate(GHz): 1.531
+pciBusID: 0000:02:00.0
+totalMemory: 11.91GiB freeMemory: 11.75GiB
+2019-03-02 23:22:29.281884: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1432] Found device 1 with properties: 
+name: TITAN X (Pascal) major: 6 minor: 1 memoryClockRate(GHz): 1.531
+pciBusID: 0000:03:00.0
+totalMemory: 11.91GiB freeMemory: 11.75GiB
+2019-03-02 23:22:29.508179: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1432] Found device 2 with properties: 
+name: TITAN X (Pascal) major: 6 minor: 1 memoryClockRate(GHz): 1.531
+pciBusID: 0000:81:00.0
+totalMemory: 11.91GiB freeMemory: 11.75GiB
+2019-03-02 23:22:29.723460: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1432] Found device 3 with properties: 
+name: TITAN X (Pascal) major: 6 minor: 1 memoryClockRate(GHz): 1.531
+pciBusID: 0000:82:00.0
+totalMemory: 11.91GiB freeMemory: 11.75GiB
+2019-03-02 23:22:29.725687: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0, 1, 2, 3
+2019-03-02 23:22:31.251314: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-03-02 23:22:31.251356: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 1 2 3 
+2019-03-02 23:22:31.251363: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N Y N N 
+2019-03-02 23:22:31.251367: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 1:   Y N N N 
+2019-03-02 23:22:31.251371: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 2:   N N N Y 
+2019-03-02 23:22:31.251376: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 3:   N N Y N 
+2019-03-02 23:22:31.252286: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11374 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:02:00.0, compute capability: 6.1)
+2019-03-02 23:22:31.253650: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:1 with 11374 MB memory) -> physical GPU (device: 1, name: TITAN X (Pascal), pci bus id: 0000:03:00.0, compute capability: 6.1)
+2019-03-02 23:22:31.254718: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:2 with 11374 MB memory) -> physical GPU (device: 2, name: TITAN X (Pascal), pci bus id: 0000:81:00.0, compute capability: 6.1)
+2019-03-02 23:22:31.255226: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:3 with 11374 MB memory) -> physical GPU (device: 3, name: TITAN X (Pascal), pci bus id: 0000:82:00.0, compute capability: 6.1)
+Using TensorFlow backend.
+Traceback (most recent call last):
+  File "/data/datasets/tscherli/task2/train/basic.py", line 178, in <module>
+    max_queue_size = 1
+  File "/usr/local/lib/python3.5/dist-packages/keras/legacy/interfaces.py", line 91, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/keras/engine/training.py", line 1418, in fit_generator
+    initial_epoch=initial_epoch)
+  File "/usr/local/lib/python3.5/dist-packages/keras/engine/training_generator.py", line 217, in fit_generator
+    class_weight=class_weight)
+  File "/usr/local/lib/python3.5/dist-packages/keras/engine/training.py", line 1211, in train_on_batch
+    class_weight=class_weight)
+  File "/usr/local/lib/python3.5/dist-packages/keras/engine/training.py", line 789, in _standardize_user_data
+    exception_prefix='target')
+  File "/usr/local/lib/python3.5/dist-packages/keras/engine/training_utils.py", line 138, in standardize_input_data
+    str(data_shape))
+ValueError: Error when checking target: expected dense_3 to have shape (16,) but got array with shape (8,)
+                                                                               [                            ] N/A% ETA:  --:--:-- | Batch: 158, Loaded: 0.0 MB                                                                               [============================] 100% ETA:  00:00:00 / Batch: 158, Loaded: 0.0 MB
++ echo 'Done!'

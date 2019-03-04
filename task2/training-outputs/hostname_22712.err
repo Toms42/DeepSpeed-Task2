@@ -1,0 +1,12 @@
+/home/tscherli/.bashrc: line 15: bind: warning: line editing not enabled
+/home/tscherli/.bashrc: line 16: bind: warning: line editing not enabled
+/home/tscherli/.bashrc: line 17: bind: warning: line editing not enabled
+/home/tscherli/.bashrc: line 18: bind: warning: line editing not enabled
++ wait
++ nvidia-docker run -v /data/datasets:/data/datasets -v /home/tscherli:/home/tscherli tscherli/alphatraining python3 /data/datasets/tscherli/task2/train/basic.py
+Using TensorFlow backend.
+Traceback (most recent call last):
+  File "/data/datasets/tscherli/task2/train/basic.py", line 28, in <module>
+    i
+NameError: name 'i' is not defined
++ echo 'Done!'

@@ -1,0 +1,27 @@
+Starting Docker Image
+/data/datasets/tscherli/task2
+CONTAINER ID        IMAGE                       COMMAND                  CREATED             STATUS              PORTS                NAMES
+3fa6746c91c3        harjatin/hrl:v1             "/bin/bash"              6 days ago          Up 6 days                                insane_fermi
+008a02ae9fcb        harjatin/hrl:v1             "/bin/bash"              7 days ago          Up 7 days                                elegant_turing
+30ec4ec8ca2c        dbb6df0d051a                "/bin/bash"              2 weeks ago         Up 2 weeks                               cranky_franklin
+270ac871c181        shastrir/deep_learning:v1   "/bin/bash"              2 weeks ago         Up 2 weeks                               focused_mccarthy
+50d0f0677b81        shastrir/deep_learning:v1   "/bin/bash"              2 weeks ago         Up 2 weeks                               loving_bassi
+58d9d29a2697        tensorflow/tensorflow       "/run_jupyter.sh --al"   2 weeks ago         Up 2 weeks          6006/tcp, 8888/tcp   cranky_darwin
+cf7046a34c3a        nvidia/cuda                 "/bin/bash"              2 weeks ago         Up 2 weeks                               nostalgic_galileo
+0d26f972178c        nvidia/cuda                 "/bin/bash"              2 weeks ago         Up 2 weeks                               condescending_jones
+5e949098689f        deron/pytorch:1.0.0         "/bin/bash"              5 weeks ago         Up 5 weeks                               furious_wescoff
+b7bbe5d5b81b        deron/pytorch:1.0.0         "/bin/bash"              5 weeks ago         Up 5 weeks                               cranky_fermi
+4ddc17b96aec        deron/pytorch:1.0.0         "/bin/bash"              5 weeks ago         Up 5 weeks                               suspicious_bassi
+CONTAINER ID        IMAGE                       COMMAND                  CREATED             STATUS              PORTS                NAMES
+3fa6746c91c3        harjatin/hrl:v1             "/bin/bash"              6 days ago          Up 6 days                                insane_fermi
+008a02ae9fcb        harjatin/hrl:v1             "/bin/bash"              7 days ago          Up 7 days                                elegant_turing
+30ec4ec8ca2c        dbb6df0d051a                "/bin/bash"              2 weeks ago         Up 2 weeks                               cranky_franklin
+270ac871c181        shastrir/deep_learning:v1   "/bin/bash"              2 weeks ago         Up 2 weeks                               focused_mccarthy
+50d0f0677b81        shastrir/deep_learning:v1   "/bin/bash"              2 weeks ago         Up 2 weeks                               loving_bassi
+58d9d29a2697        tensorflow/tensorflow       "/run_jupyter.sh --al"   2 weeks ago         Up 2 weeks          6006/tcp, 8888/tcp   cranky_darwin
+cf7046a34c3a        nvidia/cuda                 "/bin/bash"              2 weeks ago         Up 2 weeks                               nostalgic_galileo
+0d26f972178c        nvidia/cuda                 "/bin/bash"              2 weeks ago         Up 2 weeks                               condescending_jones
+5e949098689f        deron/pytorch:1.0.0         "/bin/bash"              5 weeks ago         Up 5 weeks                               furious_wescoff
+b7bbe5d5b81b        deron/pytorch:1.0.0         "/bin/bash"              5 weeks ago         Up 5 weeks                               cranky_fermi
+4ddc17b96aec        deron/pytorch:1.0.0         "/bin/bash"              5 weeks ago         Up 5 weeks                               suspicious_bassi
+Done!

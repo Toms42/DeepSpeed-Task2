@@ -1,0 +1,41 @@
+/home/tscherli/.bashrc: line 15: bind: warning: line editing not enabled
+/home/tscherli/.bashrc: line 16: bind: warning: line editing not enabled
+/home/tscherli/.bashrc: line 18: bind: warning: line editing not enabled
+/home/tscherli/.bashrc: line 19: bind: warning: line editing not enabled
+/home/tscherli/.bashrc: line 20: bind: warning: line editing not enabled
+/home/tscherli/.bashrc: line 21: bind: warning: line editing not enabled
++ wait
++ nvidia-docker run -v /data/datasets:/data/datasets -v /home/tscherli:/home/tscherli tscherli/alphatraining python3 /home/tscherli/task2/mytests.py
+Using TensorFlow backend.
+                                                                               [                                        ] N/A% ETA:  --:--:-- \u2196 Loaded: 0.0 MB                                                                               [========================================] 100% Time:  0:02:25 \u2190 Loaded: 0.0 MB
+2019-02-20 06:01:31.723247: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-02-20 06:01:31.987038: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1432] Found device 0 with properties: 
+name: TITAN X (Pascal) major: 6 minor: 1 memoryClockRate(GHz): 1.531
+pciBusID: 0000:02:00.0
+totalMemory: 11.91GiB freeMemory: 11.75GiB
+2019-02-20 06:01:32.219777: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1432] Found device 1 with properties: 
+name: TITAN X (Pascal) major: 6 minor: 1 memoryClockRate(GHz): 1.531
+pciBusID: 0000:03:00.0
+totalMemory: 11.91GiB freeMemory: 11.75GiB
+2019-02-20 06:01:32.468056: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1432] Found device 2 with properties: 
+name: TITAN X (Pascal) major: 6 minor: 1 memoryClockRate(GHz): 1.531
+pciBusID: 0000:81:00.0
+totalMemory: 11.91GiB freeMemory: 11.75GiB
+2019-02-20 06:01:32.701913: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1432] Found device 3 with properties: 
+name: TITAN X (Pascal) major: 6 minor: 1 memoryClockRate(GHz): 1.531
+pciBusID: 0000:82:00.0
+totalMemory: 11.91GiB freeMemory: 11.75GiB
+2019-02-20 06:01:32.704699: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0, 1, 2, 3
+2019-02-20 06:01:34.209573: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-02-20 06:01:34.209620: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 1 2 3 
+2019-02-20 06:01:34.209630: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N Y N N 
+2019-02-20 06:01:34.209636: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 1:   Y N N N 
+2019-02-20 06:01:34.209641: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 2:   N N N Y 
+2019-02-20 06:01:34.209648: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 3:   N N Y N 
+2019-02-20 06:01:34.211286: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11374 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:02:00.0, compute capability: 6.1)
+2019-02-20 06:01:34.212019: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:1 with 11374 MB memory) -> physical GPU (device: 1, name: TITAN X (Pascal), pci bus id: 0000:03:00.0, compute capability: 6.1)
+2019-02-20 06:01:34.212835: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:2 with 11374 MB memory) -> physical GPU (device: 2, name: TITAN X (Pascal), pci bus id: 0000:81:00.0, compute capability: 6.1)
+2019-02-20 06:01:34.213637: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:3 with 11374 MB memory) -> physical GPU (device: 3, name: TITAN X (Pascal), pci bus id: 0000:82:00.0, compute capability: 6.1)
+2019-02-20 06:01:41.201180: W tensorflow/core/common_runtime/bfc_allocator.cc:211] Allocator (GPU_0_bfc) ran out of memory trying to allocate 3.51GiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2019-02-20 06:01:41.340183: W tensorflow/core/common_runtime/bfc_allocator.cc:211] Allocator (GPU_0_bfc) ran out of memory trying to allocate 3.41GiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
++ echo 'Done!'

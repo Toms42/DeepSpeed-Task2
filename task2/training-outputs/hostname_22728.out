@@ -1,0 +1,126 @@
+Starting Docker Image
+/data/datasets/tscherli/task2
+CONTAINER ID        IMAGE                       COMMAND                  CREATED             STATUS              PORTS                NAMES
+3fa6746c91c3        harjatin/hrl:v1             "/bin/bash"              7 days ago          Up 7 days                                insane_fermi
+008a02ae9fcb        harjatin/hrl:v1             "/bin/bash"              8 days ago          Up 8 days                                elegant_turing
+30ec4ec8ca2c        dbb6df0d051a                "/bin/bash"              2 weeks ago         Up 2 weeks                               cranky_franklin
+270ac871c181        shastrir/deep_learning:v1   "/bin/bash"              2 weeks ago         Up 2 weeks                               focused_mccarthy
+50d0f0677b81        shastrir/deep_learning:v1   "/bin/bash"              2 weeks ago         Up 2 weeks                               loving_bassi
+58d9d29a2697        tensorflow/tensorflow       "/run_jupyter.sh --al"   2 weeks ago         Up 2 weeks          6006/tcp, 8888/tcp   cranky_darwin
+cf7046a34c3a        nvidia/cuda                 "/bin/bash"              2 weeks ago         Up 2 weeks                               nostalgic_galileo
+0d26f972178c        nvidia/cuda                 "/bin/bash"              2 weeks ago         Up 2 weeks                               condescending_jones
+5e949098689f        deron/pytorch:1.0.0         "/bin/bash"              5 weeks ago         Up 5 weeks                               furious_wescoff
+b7bbe5d5b81b        deron/pytorch:1.0.0         "/bin/bash"              5 weeks ago         Up 5 weeks                               cranky_fermi
+4ddc17b96aec        deron/pytorch:1.0.0         "/bin/bash"              5 weeks ago         Up 5 weeks                               suspicious_bassi
+CONTAINER ID        IMAGE                       COMMAND                  CREATED             STATUS              PORTS                NAMES
+3fa6746c91c3        harjatin/hrl:v1             "/bin/bash"              7 days ago          Up 7 days                                insane_fermi
+008a02ae9fcb        harjatin/hrl:v1             "/bin/bash"              8 days ago          Up 8 days                                elegant_turing
+30ec4ec8ca2c        dbb6df0d051a                "/bin/bash"              2 weeks ago         Up 2 weeks                               cranky_franklin
+270ac871c181        shastrir/deep_learning:v1   "/bin/bash"              2 weeks ago         Up 2 weeks                               focused_mccarthy
+50d0f0677b81        shastrir/deep_learning:v1   "/bin/bash"              2 weeks ago         Up 2 weeks                               loving_bassi
+58d9d29a2697        tensorflow/tensorflow       "/run_jupyter.sh --al"   2 weeks ago         Up 2 weeks          6006/tcp, 8888/tcp   cranky_darwin
+cf7046a34c3a        nvidia/cuda                 "/bin/bash"              2 weeks ago         Up 2 weeks                               nostalgic_galileo
+0d26f972178c        nvidia/cuda                 "/bin/bash"              2 weeks ago         Up 2 weeks                               condescending_jones
+5e949098689f        deron/pytorch:1.0.0         "/bin/bash"              5 weeks ago         Up 5 weeks                               furious_wescoff
+b7bbe5d5b81b        deron/pytorch:1.0.0         "/bin/bash"              5 weeks ago         Up 5 weeks                               cranky_fermi
+4ddc17b96aec        deron/pytorch:1.0.0         "/bin/bash"              5 weeks ago         Up 5 weeks                               suspicious_bassi
+reading dataset labels:
+...done
+Filtering and normalizing labels...
+Bad File: /data/datasets/tscherli/Data_Training/IMG_8832.jdon.JPG
+Bad File: /data/datasets/tscherli/Data_Training/IMG_8686.sjon.JPG
+...done
+train/test split: 5061 / 1266
+creating generator for 5061 images...
+starting read:
+[ 0 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.001024 M.
+[ 1 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.0020480000000000003 M.
+[ 2 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.003072000000000001 M.
+[ 3 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.004096000000000001 M.
+[ 4 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.005119999999999998 M.
+[ 5 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.006143999999999995 M.
+[ 6 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.007167999999999992 M.
+[ 7 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.00819199999999999 M.
+[ 8 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.009215999999999986 M.
+[ 9 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.010239999999999983 M.
+[ 10 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.01126399999999998 M.
+[ 11 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.012287999999999978 M.
+[ 12 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.013311999999999975 M.
+[ 13 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.014335999999999972 M.
+[ 14 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.01535999999999997 M.
+[ 15 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.016383999999999968 M.
+[ 16 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.017407999999999965 M.
+[ 17 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.018431999999999962 M.
+[ 18 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.01945599999999996 M.
+[ 19 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.020479999999999957 M.
+[ 20 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.021503999999999954 M.
+[ 21 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.02252799999999995 M.
+[ 22 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.023551999999999948 M.
+[ 23 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.024575999999999945 M.
+[ 24 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.025599999999999942 M.
+[ 25 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.02662399999999994 M.
+[ 26 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.027647999999999937 M.
+[ 27 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.028671999999999934 M.
+[ 28 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.02969599999999993 M.
+[ 29 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.030719999999999928 M.
+[ 30 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.03174399999999994 M.
+[ 31 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.032767999999999964 M.
+[ 32 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.03379199999999999 M.
+[ 33 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.034816000000000014 M.
+[ 34 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.03584000000000004 M.
+[ 35 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.03686400000000006 M.
+[ 36 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.03788800000000009 M.
+[ 37 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.03891200000000011 M.
+[ 38 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.03993600000000014 M.
+[ 39 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.04096000000000016 M.
+[ 40 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.04198400000000019 M.
+[ 41 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.04300800000000021 M.
+[ 42 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.04403200000000024 M.
+[ 43 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.04505600000000026 M.
+[ 44 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.04608000000000029 M.
+[ 45 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.04710400000000031 M.
+[ 46 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.04812800000000034 M.
+[ 47 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.04915200000000036 M.
+[ 48 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.05017600000000039 M.
+[ 49 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.05120000000000041 M.
+[ 50 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.05222400000000044 M.
+[ 51 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.05324800000000046 M.
+[ 52 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.054272000000000487 M.
+[ 53 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.05529600000000051 M.
+[ 54 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.056320000000000536 M.
+[ 55 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.05734400000000056 M.
+[ 56 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.058368000000000586 M.
+[ 57 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.05939200000000061 M.
+[ 58 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.060416000000000636 M.
+[ 59 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.06144000000000066 M.
+[ 60 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.062464000000000686 M.
+[ 61 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.06348800000000071 M.
+[ 62 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.06451200000000074 M.
+[ 63 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.06553600000000076 M.
+[ 64 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.06656000000000079 M.
+[ 65 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.06758400000000081 M.
+[ 66 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.06860800000000083 M.
+[ 67 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.06963200000000086 M.
+[ 68 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.07065600000000088 M.
+[ 69 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.07168000000000091 M.
+[ 70 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.07270400000000093 M.
+[ 71 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.07372800000000096 M.
+[ 72 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.07475200000000098 M.
+[ 73 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.07577600000000101 M.
+[ 74 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.07680000000000103 M.
+[ 75 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.07782400000000106 M.
+[ 76 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.07884800000000108 M.
+[ 77 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.07987200000000111 M.
+[ 78 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.08089600000000113 M.
+[ 79 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.08192000000000116 M.
+[ 80 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.08294400000000118 M.
+[ 81 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.08396800000000121 M.
+[ 82 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.08499200000000123 M.
+[ 83 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.08601600000000126 M.
+[ 84 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.08704000000000128 M.
+[ 85 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.08806400000000131 M.
+[ 86 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.08908800000000133 M.
+[ 87 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.09011200000000136 M.
+[ 88 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.09113600000000138 M.
+[ 89 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.09216000000000141 M.
+[ 90 of 633 ] batch loaded. Batch Size: 3.840144 M. Total size:

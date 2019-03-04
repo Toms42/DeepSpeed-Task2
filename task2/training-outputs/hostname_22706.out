@@ -1,0 +1,818 @@
+Starting Docker Image
+/data/datasets/tscherli/task2
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
+reading dataset labels:
+...done
+Filtering and normalizing labels...
+Bad File: /data/datasets/tscherli/Data_Training_300/IMG_8832.jdon.JPG
+Bad File: /data/datasets/tscherli/Data_Training_300/IMG_8686.sjon.JPG
+...done
+train/test split: 5694 / 633
+creating generator for 5694 images...
+starting read:
+[ 0 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.004096000000000001 M.
+[ 1 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.00819199999999999 M.
+[ 2 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.012287999999999978 M.
+[ 3 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.016383999999999968 M.
+[ 4 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.020479999999999957 M.
+[ 5 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.024575999999999945 M.
+[ 6 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.028671999999999934 M.
+[ 7 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.032767999999999964 M.
+[ 8 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.03686400000000006 M.
+[ 9 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.04096000000000016 M.
+[ 10 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.04505600000000026 M.
+[ 11 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.04915200000000036 M.
+[ 12 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.05324800000000046 M.
+[ 13 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.05734400000000056 M.
+[ 14 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.06144000000000066 M.
+[ 15 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.06553600000000076 M.
+[ 16 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.06963200000000086 M.
+[ 17 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.07372800000000096 M.
+[ 18 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.07782400000000106 M.
+[ 19 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.08192000000000116 M.
+[ 20 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.08601600000000126 M.
+[ 21 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.09011200000000136 M.
+[ 22 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.09420800000000146 M.
+[ 23 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.09830400000000156 M.
+[ 24 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.10240000000000166 M.
+[ 25 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.10649600000000176 M.
+[ 26 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.11059200000000186 M.
+[ 27 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.11468800000000196 M.
+[ 28 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.11878400000000205 M.
+[ 29 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.12288000000000215 M.
+[ 30 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.12697600000000203 M.
+[ 31 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.1310720000000017 M.
+[ 32 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.13516800000000134 M.
+[ 33 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.139264000000001 M.
+[ 34 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.14336000000000065 M.
+[ 35 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.1474560000000003 M.
+[ 36 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.15155199999999996 M.
+[ 37 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.15564799999999962 M.
+[ 38 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.15974399999999928 M.
+[ 39 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.16383999999999893 M.
+[ 40 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.1679359999999986 M.
+[ 41 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.17203199999999824 M.
+[ 42 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.1761279999999979 M.
+[ 43 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.18022399999999755 M.
+[ 44 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.1843199999999972 M.
+[ 45 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.18841599999999686 M.
+[ 46 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.19251199999999652 M.
+[ 47 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.19660799999999617 M.
+[ 48 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.20070399999999583 M.
+[ 49 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.20479999999999549 M.
+[ 50 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.20889599999999514 M.
+[ 51 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.2129919999999948 M.
+[ 52 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.21708799999999445 M.
+[ 53 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.2211839999999941 M.
+[ 54 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.22527999999999376 M.
+[ 55 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.22937599999999342 M.
+[ 56 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.23347199999999307 M.
+[ 57 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.23756799999999273 M.
+[ 58 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.24166399999999238 M.
+[ 59 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.24575999999999204 M.
+[ 60 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.2498559999999917 M.
+[ 61 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.2539519999999922 M.
+[ 62 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.2580479999999927 M.
+[ 63 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.26214399999999327 M.
+[ 64 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.2662399999999938 M.
+[ 65 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.27033599999999436 M.
+[ 66 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.2744319999999949 M.
+[ 67 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.27852799999999545 M.
+[ 68 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.282623999999996 M.
+[ 69 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.28671999999999653 M.
+[ 70 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.2908159999999971 M.
+[ 71 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.2949119999999976 M.
+[ 72 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.29900799999999816 M.
+[ 73 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.3031039999999987 M.
+[ 74 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.30719999999999925 M.
+[ 75 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.3112959999999998 M.
+[ 76 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.31539200000000034 M.
+[ 77 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.3194880000000009 M.
+[ 78 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.3235840000000014 M.
+[ 79 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.32768000000000197 M.
+[ 80 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.3317760000000025 M.
+[ 81 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.33587200000000306 M.
+[ 82 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.3399680000000036 M.
+[ 83 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.34406400000000414 M.
+[ 84 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.3481600000000047 M.
+[ 85 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.35225600000000523 M.
+[ 86 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.3563520000000058 M.
+[ 87 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.3604480000000063 M.
+[ 88 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.36454400000000686 M.
+[ 89 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.3686400000000074 M.
+[ 90 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.37273600000000795 M.
+[ 91 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.3768320000000085 M.
+[ 92 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.38092800000000904 M.
+[ 93 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.3850240000000096 M.
+[ 94 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.3891200000000101 M.
+[ 95 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.39321600000001067 M.
+[ 96 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.3973120000000112 M.
+[ 97 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.40140800000001176 M.
+[ 98 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.4055040000000123 M.
+[ 99 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.40960000000001284 M.
+[ 100 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.4136960000000134 M.
+[ 101 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.41779200000001393 M.
+[ 102 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.4218880000000145 M.
+[ 103 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.425984000000015 M.
+[ 104 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.43008000000001556 M.
+[ 105 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.4341760000000161 M.
+[ 106 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.43827200000001665 M.
+[ 107 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.4423680000000172 M.
+[ 108 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.44646400000001774 M.
+[ 109 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.4505600000000183 M.
+[ 110 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.4546560000000188 M.
+[ 111 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.45875200000001937 M.
+[ 112 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.4628480000000199 M.
+[ 113 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.46694400000002045 M.
+[ 114 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.471040000000021 M.
+[ 115 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.47513600000002154 M.
+[ 116 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.4792320000000221 M.
+[ 117 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.48332800000002263 M.
+[ 118 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.48742400000002317 M.
+[ 119 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.4915200000000237 M.
+[ 120 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.49561600000002426 M.
+[ 121 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.4997120000000248 M.
+[ 122 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.5038080000000253 M.
+[ 123 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.5079040000000259 M.
+[ 124 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.5120000000000264 M.
+[ 125 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.516096000000027 M.
+[ 126 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.5201920000000275 M.
+[ 127 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.5242880000000281 M.
+[ 128 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.5283840000000286 M.
+[ 129 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.5324800000000292 M.
+[ 130 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.5365760000000297 M.
+[ 131 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.5406720000000302 M.
+[ 132 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.5447680000000308 M.
+[ 133 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.5488640000000313 M.
+[ 134 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.5529600000000319 M.
+[ 135 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.5570560000000324 M.
+[ 136 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.561152000000033 M.
+[ 137 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.5652480000000335 M.
+[ 138 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.569344000000034 M.
+[ 139 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.5734400000000346 M.
+[ 140 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.5775360000000351 M.
+[ 141 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.5816320000000357 M.
+[ 142 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.5857280000000362 M.
+[ 143 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.5898240000000368 M.
+[ 144 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.5939200000000373 M.
+[ 145 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.5980160000000379 M.
+[ 146 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.6021120000000384 M.
+[ 147 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.6062080000000389 M.
+[ 148 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.6103040000000395 M.
+[ 149 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.61440000000004 M.
+[ 150 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.6184960000000406 M.
+[ 151 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.6225920000000411 M.
+[ 152 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.6266880000000417 M.
+[ 153 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.6307840000000422 M.
+[ 154 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.6348800000000427 M.
+[ 155 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.6389760000000433 M.
+[ 156 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.6430720000000438 M.
+[ 157 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.6471680000000444 M.
+[ 158 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.6512640000000449 M.
+[ 159 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.6553600000000455 M.
+[ 160 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.659456000000046 M.
+[ 161 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.6635520000000465 M.
+[ 162 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.6676480000000471 M.
+[ 163 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.6717440000000476 M.
+[ 164 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.6758400000000482 M.
+[ 165 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.6799360000000487 M.
+[ 166 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.6840320000000493 M.
+[ 167 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.6881280000000498 M.
+[ 168 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.6922240000000504 M.
+[ 169 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.6963200000000509 M.
+[ 170 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.7004160000000514 M.
+[ 171 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.704512000000052 M.
+[ 172 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.7086080000000525 M.
+[ 173 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.7127040000000531 M.
+[ 174 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.7168000000000536 M.
+[ 175 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.7208960000000542 M.
+[ 176 of 178 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.7249920000000547 M.
+[ 177 of 178 ] batch loaded. Batch Size: 3.600144 M. Total size: 0.7288320000000552 M.
+creating generator for 633 images...
+starting read:
+[ 0 of 20 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.004096000000000001 M.
+[ 1 of 20 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.00819199999999999 M.
+[ 2 of 20 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.012287999999999978 M.
+[ 3 of 20 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.016383999999999968 M.
+[ 4 of 20 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.020479999999999957 M.
+[ 5 of 20 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.024575999999999945 M.
+[ 6 of 20 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.028671999999999934 M.
+[ 7 of 20 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.032767999999999964 M.
+[ 8 of 20 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.03686400000000006 M.
+[ 9 of 20 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.04096000000000016 M.
+[ 10 of 20 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.04505600000000026 M.
+[ 11 of 20 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.04915200000000036 M.
+[ 12 of 20 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.05324800000000046 M.
+[ 13 of 20 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.05734400000000056 M.
+[ 14 of 20 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.06144000000000066 M.
+[ 15 of 20 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.06553600000000076 M.
+[ 16 of 20 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.06963200000000086 M.
+[ 17 of 20 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.07372800000000096 M.
+[ 18 of 20 ] batch loaded. Batch Size: 3.840144 M. Total size: 0.07782400000000106 M.
+[ 19 of 20 ] batch loaded. Batch Size: 3.000144 M. Total size: 0.08102400000000114 M.
+Compiling network:
+Fitting:
+Epoch 1/300
+ - 30s - loss: 885.8034 - acc: 0.1310 - val_loss: 0.0425 - val_acc: 0.2433
+Epoch 2/300
+ - 22s - loss: 0.0489 - acc: 0.3293 - val_loss: 0.0341 - val_acc: 0.3981
+Epoch 3/300
+ - 23s - loss: 0.0583 - acc: 0.4039 - val_loss: 0.0272 - val_acc: 0.4060
+Epoch 4/300
+ - 23s - loss: 0.0288 - acc: 0.4439 - val_loss: 0.0522 - val_acc: 0.4739
+Epoch 5/300
+ - 23s - loss: 0.0137 - acc: 0.4770 - val_loss: 0.0118 - val_acc: 0.4724
+Epoch 6/300
+ - 23s - loss: 0.0089 - acc: 0.5084 - val_loss: 0.0061 - val_acc: 0.5150
+Epoch 7/300
+ - 23s - loss: 0.0042 - acc: 0.5211 - val_loss: 0.0075 - val_acc: 0.4945
+Epoch 8/300
+ - 23s - loss: 0.0036 - acc: 0.5354 - val_loss: 0.0048 - val_acc: 0.5324
+Epoch 9/300
+ - 23s - loss: 0.0021 - acc: 0.5537 - val_loss: 0.0040 - val_acc: 0.5308
+Epoch 10/300
+ - 23s - loss: 0.0015 - acc: 0.5628 - val_loss: 0.0039 - val_acc: 0.5371
+Epoch 11/300
+ - 23s - loss: 0.0013 - acc: 0.5699 - val_loss: 0.0034 - val_acc: 0.4787
+Epoch 12/300
+ - 23s - loss: 9.3041e-04 - acc: 0.5799 - val_loss: 0.0032 - val_acc: 0.5055
+Epoch 13/300
+ - 23s - loss: 7.8458e-04 - acc: 0.5745 - val_loss: 0.0031 - val_acc: 0.5324
+Epoch 14/300
+ - 23s - loss: 7.1787e-04 - acc: 0.5948 - val_loss: 0.0033 - val_acc: 0.4976
+Epoch 15/300
+ - 23s - loss: 6.2812e-04 - acc: 0.5878 - val_loss: 0.0031 - val_acc: 0.4897
+Epoch 16/300
+ - 23s - loss: 5.2873e-04 - acc: 0.5947 - val_loss: 0.0031 - val_acc: 0.5276
+Epoch 17/300
+ - 24s - loss: 4.9996e-04 - acc: 0.5997 - val_loss: 0.0032 - val_acc: 0.5577
+Epoch 18/300
+ - 23s - loss: 4.2194e-04 - acc: 0.5954 - val_loss: 0.0032 - val_acc: 0.5150
+Epoch 19/300
+ - 23s - loss: 3.9078e-04 - acc: 0.5976 - val_loss: 0.0030 - val_acc: 0.5008
+Epoch 20/300
+ - 23s - loss: 3.3251e-04 - acc: 0.6032 - val_loss: 0.0030 - val_acc: 0.5150
+Epoch 21/300
+ - 23s - loss: 3.3064e-04 - acc: 0.6092 - val_loss: 0.0029 - val_acc: 0.5292
+Epoch 22/300
+ - 23s - loss: 2.8493e-04 - acc: 0.6117 - val_loss: 0.0029 - val_acc: 0.5229
+Epoch 23/300
+ - 23s - loss: 2.6418e-04 - acc: 0.6183 - val_loss: 0.0028 - val_acc: 0.5087
+Epoch 24/300
+ - 23s - loss: 2.3990e-04 - acc: 0.6217 - val_loss: 0.0028 - val_acc: 0.5197
+Epoch 25/300
+ - 23s - loss: 2.2096e-04 - acc: 0.6157 - val_loss: 0.0030 - val_acc: 0.5150
+Epoch 26/300
+ - 23s - loss: 2.0658e-04 - acc: 0.6340 - val_loss: 0.0029 - val_acc: 0.5039
+Epoch 27/300
+ - 23s - loss: 1.9522e-04 - acc: 0.6226 - val_loss: 0.0028 - val_acc: 0.5182
+Epoch 28/300
+ - 23s - loss: 1.6311e-04 - acc: 0.6322 - val_loss: 0.0028 - val_acc: 0.5055
+Epoch 29/300
+ - 23s - loss: 1.5863e-04 - acc: 0.6343 - val_loss: 0.0028 - val_acc: 0.5213
+Epoch 30/300
+ - 23s - loss: 1.5315e-04 - acc: 0.6380 - val_loss: 0.0028 - val_acc: 0.5261
+Epoch 31/300
+ - 23s - loss: 1.6167e-04 - acc: 0.6441 - val_loss: 0.0028 - val_acc: 0.5118
+Epoch 32/300
+ - 23s - loss: 1.3488e-04 - acc: 0.6384 - val_loss: 0.0028 - val_acc: 0.5055
+Epoch 33/300
+ - 23s - loss: 1.3204e-04 - acc: 0.6445 - val_loss: 0.0029 - val_acc: 0.5103
+Epoch 34/300
+ - 23s - loss: 1.3221e-04 - acc: 0.6403 - val_loss: 0.0028 - val_acc: 0.5182
+Epoch 35/300
+ - 23s - loss: 1.1426e-04 - acc: 0.6454 - val_loss: 0.0028 - val_acc: 0.5055
+Epoch 36/300
+ - 23s - loss: 1.1911e-04 - acc: 0.6470 - val_loss: 0.0029 - val_acc: 0.5071
+Epoch 37/300
+ - 23s - loss: 1.1282e-04 - acc: 0.6500 - val_loss: 0.0029 - val_acc: 0.5229
+Epoch 38/300
+ - 23s - loss: 1.1281e-04 - acc: 0.6572 - val_loss: 0.0029 - val_acc: 0.5308
+Epoch 39/300
+ - 23s - loss: 1.0564e-04 - acc: 0.6587 - val_loss: 0.0028 - val_acc: 0.5276
+Epoch 40/300
+ - 23s - loss: 9.1981e-05 - acc: 0.6558 - val_loss: 0.0029 - val_acc: 0.5292
+Epoch 41/300
+ - 23s - loss: 7.5995e-05 - acc: 0.6654 - val_loss: 0.0028 - val_acc: 0.5213
+Epoch 42/300
+ - 23s - loss: 7.7219e-05 - acc: 0.6628 - val_loss: 0.0028 - val_acc: 0.5292
+Epoch 43/300
+ - 23s - loss: 7.7950e-05 - acc: 0.6684 - val_loss: 0.0028 - val_acc: 0.5308
+Epoch 44/300
+ - 23s - loss: 8.1122e-05 - acc: 0.6700 - val_loss: 0.0029 - val_acc: 0.5387
+Epoch 45/300
+ - 23s - loss: 7.8578e-05 - acc: 0.6712 - val_loss: 0.0028 - val_acc: 0.5087
+Epoch 46/300
+ - 24s - loss: 7.4156e-05 - acc: 0.6670 - val_loss: 0.0028 - val_acc: 0.5308
+Epoch 47/300
+ - 23s - loss: 7.4160e-05 - acc: 0.6753 - val_loss: 0.0027 - val_acc: 0.5229
+Epoch 48/300
+ - 24s - loss: 7.7015e-05 - acc: 0.6714 - val_loss: 0.0028 - val_acc: 0.5213
+Epoch 49/300
+ - 24s - loss: 6.3235e-05 - acc: 0.6786 - val_loss: 0.0029 - val_acc: 0.5103
+Epoch 50/300
+ - 23s - loss: 5.9234e-05 - acc: 0.6862 - val_loss: 0.0028 - val_acc: 0.5118
+Epoch 51/300
+ - 23s - loss: 5.4988e-05 - acc: 0.6846 - val_loss: 0.0028 - val_acc: 0.5166
+Epoch 52/300
+ - 23s - loss: 6.4274e-05 - acc: 0.6816 - val_loss: 0.0028 - val_acc: 0.5087
+Epoch 53/300
+ - 23s - loss: 6.0520e-05 - acc: 0.6883 - val_loss: 0.0028 - val_acc: 0.5292
+Epoch 54/300
+ - 23s - loss: 5.6682e-05 - acc: 0.6906 - val_loss: 0.0027 - val_acc: 0.5182
+Epoch 55/300
+ - 23s - loss: 5.6640e-05 - acc: 0.6911 - val_loss: 0.0028 - val_acc: 0.5371
+Epoch 56/300
+ - 23s - loss: 5.6395e-05 - acc: 0.6883 - val_loss: 0.0028 - val_acc: 0.5245
+Epoch 57/300
+ - 23s - loss: 5.8658e-05 - acc: 0.6970 - val_loss: 0.0029 - val_acc: 0.5134
+Epoch 58/300
+ - 23s - loss: 5.3413e-05 - acc: 0.6948 - val_loss: 0.0028 - val_acc: 0.5087
+Epoch 59/300
+ - 23s - loss: 4.5011e-05 - acc: 0.6951 - val_loss: 0.0028 - val_acc: 0.5024
+Epoch 60/300
+ - 23s - loss: 4.8056e-05 - acc: 0.6947 - val_loss: 0.0028 - val_acc: 0.5276
+Epoch 61/300
+ - 23s - loss: 4.1676e-05 - acc: 0.6960 - val_loss: 0.0029 - val_acc: 0.5213
+Epoch 62/300
+ - 23s - loss: 3.8850e-05 - acc: 0.7050 - val_loss: 0.0028 - val_acc: 0.5308
+Epoch 63/300
+ - 23s - loss: 4.2668e-05 - acc: 0.7085 - val_loss: 0.0029 - val_acc: 0.5245
+Epoch 64/300
+ - 23s - loss: 4.5341e-05 - acc: 0.7042 - val_loss: 0.0028 - val_acc: 0.5276
+Epoch 65/300
+ - 23s - loss: 4.4145e-05 - acc: 0.7028 - val_loss: 0.0028 - val_acc: 0.5292
+Epoch 66/300
+ - 23s - loss: 4.2047e-05 - acc: 0.7055 - val_loss: 0.0028 - val_acc: 0.5197
+Epoch 67/300
+ - 23s - loss: 3.8997e-05 - acc: 0.7137 - val_loss: 0.0028 - val_acc: 0.5197
+Epoch 68/300
+ - 23s - loss: 3.8073e-05 - acc: 0.7102 - val_loss: 0.0028 - val_acc: 0.5276
+Epoch 69/300
+ - 23s - loss: 4.1108e-05 - acc: 0.7157 - val_loss: 0.0028 - val_acc: 0.5213
+Epoch 70/300
+ - 23s - loss: 3.6056e-05 - acc: 0.7246 - val_loss: 0.0028 - val_acc: 0.5071
+Epoch 71/300
+ - 23s - loss: 3.8004e-05 - acc: 0.7185 - val_loss: 0.0028 - val_acc: 0.5324
+Epoch 72/300
+ - 23s - loss: 3.4575e-05 - acc: 0.7151 - val_loss: 0.0028 - val_acc: 0.5166
+Epoch 73/300
+ - 24s - loss: 3.2420e-05 - acc: 0.7241 - val_loss: 0.0027 - val_acc: 0.5276
+Epoch 74/300
+ - 23s - loss: 3.0964e-05 - acc: 0.7227 - val_loss: 0.0028 - val_acc: 0.5261
+Epoch 75/300
+ - 23s - loss: 2.8196e-05 - acc: 0.7243 - val_loss: 0.0028 - val_acc: 0.5229
+Epoch 76/300
+ - 23s - loss: 3.1843e-05 - acc: 0.7269 - val_loss: 0.0028 - val_acc: 0.5245
+Epoch 77/300
+ - 23s - loss: 3.2529e-05 - acc: 0.7220 - val_loss: 0.0028 - val_acc: 0.5261
+Epoch 78/300
+ - 23s - loss: 2.4831e-05 - acc: 0.7302 - val_loss: 0.0027 - val_acc: 0.5261
+Epoch 79/300
+ - 23s - loss: 2.4631e-05 - acc: 0.7280 - val_loss: 0.0028 - val_acc: 0.5340
+Epoch 80/300
+ - 23s - loss: 2.8742e-05 - acc: 0.7311 - val_loss: 0.0028 - val_acc: 0.5166
+Epoch 81/300
+ - 23s - loss: 2.9843e-05 - acc: 0.7308 - val_loss: 0.0028 - val_acc: 0.5150
+Epoch 82/300
+ - 23s - loss: 2.8118e-05 - acc: 0.7327 - val_loss: 0.0028 - val_acc: 0.5213
+Epoch 83/300
+ - 23s - loss: 2.5594e-05 - acc: 0.7299 - val_loss: 0.0028 - val_acc: 0.5182
+Epoch 84/300
+ - 24s - loss: 3.0152e-05 - acc: 0.7325 - val_loss: 0.0028 - val_acc: 0.5213
+Epoch 85/300
+ - 24s - loss: 2.9990e-05 - acc: 0.7329 - val_loss: 0.0028 - val_acc: 0.5276
+Epoch 86/300
+ - 23s - loss: 2.4834e-05 - acc: 0.7332 - val_loss: 0.0028 - val_acc: 0.5182
+Epoch 87/300
+ - 23s - loss: 2.3977e-05 - acc: 0.7378 - val_loss: 0.0028 - val_acc: 0.5308
+Epoch 88/300
+ - 23s - loss: 2.4054e-05 - acc: 0.7410 - val_loss: 0.0028 - val_acc: 0.5213
+Epoch 89/300
+ - 23s - loss: 2.0847e-05 - acc: 0.7464 - val_loss: 0.0028 - val_acc: 0.5229
+Epoch 90/300
+ - 23s - loss: 2.1192e-05 - acc: 0.7481 - val_loss: 0.0028 - val_acc: 0.5276
+Epoch 91/300
+ - 23s - loss: 2.0191e-05 - acc: 0.7448 - val_loss: 0.0028 - val_acc: 0.5150
+Epoch 92/300
+ - 23s - loss: 2.0314e-05 - acc: 0.7497 - val_loss: 0.0028 - val_acc: 0.5371
+Epoch 93/300
+ - 23s - loss: 1.9238e-05 - acc: 0.7457 - val_loss: 0.0028 - val_acc: 0.5182
+Epoch 94/300
+ - 23s - loss: 2.0215e-05 - acc: 0.7487 - val_loss: 0.0028 - val_acc: 0.5308
+Epoch 95/300
+ - 23s - loss: 2.0001e-05 - acc: 0.7459 - val_loss: 0.0028 - val_acc: 0.5245
+Epoch 96/300
+ - 23s - loss: 2.0937e-05 - acc: 0.7520 - val_loss: 0.0028 - val_acc: 0.5292
+Epoch 97/300
+ - 23s - loss: 1.9631e-05 - acc: 0.7492 - val_loss: 0.0028 - val_acc: 0.5197
+Epoch 98/300
+ - 23s - loss: 1.7151e-05 - acc: 0.7527 - val_loss: 0.0028 - val_acc: 0.5197
+Epoch 99/300
+ - 23s - loss: 1.7806e-05 - acc: 0.7561 - val_loss: 0.0028 - val_acc: 0.5150
+Epoch 100/300
+ - 23s - loss: 1.8470e-05 - acc: 0.7569 - val_loss: 0.0028 - val_acc: 0.5213
+Epoch 101/300
+ - 24s - loss: 2.0705e-05 - acc: 0.7587 - val_loss: 0.0028 - val_acc: 0.5340
+Epoch 102/300
+ - 23s - loss: 1.7678e-05 - acc: 0.7611 - val_loss: 0.0028 - val_acc: 0.5261
+Epoch 103/300
+ - 23s - loss: 1.8407e-05 - acc: 0.7603 - val_loss: 0.0028 - val_acc: 0.5229
+Epoch 104/300
+ - 23s - loss: 1.6865e-05 - acc: 0.7675 - val_loss: 0.0028 - val_acc: 0.5213
+Epoch 105/300
+ - 23s - loss: 1.7429e-05 - acc: 0.7599 - val_loss: 0.0028 - val_acc: 0.5340
+Epoch 106/300
+ - 23s - loss: 1.6184e-05 - acc: 0.7684 - val_loss: 0.0028 - val_acc: 0.5245
+Epoch 107/300
+ - 23s - loss: 1.5775e-05 - acc: 0.7615 - val_loss: 0.0028 - val_acc: 0.5166
+Epoch 108/300
+ - 23s - loss: 1.6916e-05 - acc: 0.7669 - val_loss: 0.0028 - val_acc: 0.5261
+Epoch 109/300
+ - 23s - loss: 1.4418e-05 - acc: 0.7664 - val_loss: 0.0028 - val_acc: 0.5324
+Epoch 110/300
+ - 24s - loss: 1.6004e-05 - acc: 0.7650 - val_loss: 0.0028 - val_acc: 0.5245
+Epoch 111/300
+ - 23s - loss: 1.6358e-05 - acc: 0.7659 - val_loss: 0.0028 - val_acc: 0.5340
+Epoch 112/300
+ - 23s - loss: 1.5126e-05 - acc: 0.7680 - val_loss: 0.0028 - val_acc: 0.5118
+Epoch 113/300
+ - 23s - loss: 1.6349e-05 - acc: 0.7701 - val_loss: 0.0028 - val_acc: 0.5261
+Epoch 114/300
+ - 23s - loss: 1.5865e-05 - acc: 0.7734 - val_loss: 0.0028 - val_acc: 0.5261
+Epoch 115/300
+ - 24s - loss: 1.5893e-05 - acc: 0.7768 - val_loss: 0.0028 - val_acc: 0.5261
+Epoch 116/300
+ - 23s - loss: 1.6211e-05 - acc: 0.7689 - val_loss: 0.0028 - val_acc: 0.5276
+Epoch 117/300
+ - 23s - loss: 1.4435e-05 - acc: 0.7734 - val_loss: 0.0028 - val_acc: 0.5197
+Epoch 118/300
+ - 23s - loss: 1.3279e-05 - acc: 0.7763 - val_loss: 0.0028 - val_acc: 0.5308
+Epoch 119/300
+ - 23s - loss: 1.3237e-05 - acc: 0.7785 - val_loss: 0.0028 - val_acc: 0.5403
+Epoch 120/300
+ - 23s - loss: 1.4049e-05 - acc: 0.7800 - val_loss: 0.0028 - val_acc: 0.5403
+Epoch 121/300
+ - 23s - loss: 1.2962e-05 - acc: 0.7794 - val_loss: 0.0027 - val_acc: 0.5324
+Epoch 122/300
+ - 23s - loss: 1.3094e-05 - acc: 0.7810 - val_loss: 0.0028 - val_acc: 0.5197
+Epoch 123/300
+ - 23s - loss: 1.3829e-05 - acc: 0.7783 - val_loss: 0.0028 - val_acc: 0.5292
+Epoch 124/300
+ - 23s - loss: 1.3198e-05 - acc: 0.7819 - val_loss: 0.0028 - val_acc: 0.5261
+Epoch 125/300
+ - 23s - loss: 1.3568e-05 - acc: 0.7768 - val_loss: 0.0028 - val_acc: 0.5276
+Epoch 126/300
+ - 23s - loss: 1.3399e-05 - acc: 0.7845 - val_loss: 0.0028 - val_acc: 0.5308
+Epoch 127/300
+ - 23s - loss: 1.2977e-05 - acc: 0.7836 - val_loss: 0.0028 - val_acc: 0.5276
+Epoch 128/300
+ - 23s - loss: 1.1821e-05 - acc: 0.7864 - val_loss: 0.0028 - val_acc: 0.5434
+Epoch 129/300
+ - 23s - loss: 1.2075e-05 - acc: 0.7894 - val_loss: 0.0028 - val_acc: 0.5276
+Epoch 130/300
+ - 23s - loss: 1.0829e-05 - acc: 0.7887 - val_loss: 0.0028 - val_acc: 0.5292
+Epoch 131/300
+ - 23s - loss: 1.2171e-05 - acc: 0.7890 - val_loss: 0.0028 - val_acc: 0.5245
+Epoch 132/300
+ - 23s - loss: 1.1274e-05 - acc: 0.7923 - val_loss: 0.0028 - val_acc: 0.5150
+Epoch 133/300
+ - 24s - loss: 1.0404e-05 - acc: 0.7936 - val_loss: 0.0028 - val_acc: 0.5434
+Epoch 134/300
+ - 23s - loss: 1.1538e-05 - acc: 0.7917 - val_loss: 0.0028 - val_acc: 0.5466
+Epoch 135/300
+ - 23s - loss: 1.0581e-05 - acc: 0.7890 - val_loss: 0.0028 - val_acc: 0.5308
+Epoch 136/300
+ - 23s - loss: 1.0163e-05 - acc: 0.7947 - val_loss: 0.0028 - val_acc: 0.5340
+Epoch 137/300
+ - 23s - loss: 9.2375e-06 - acc: 0.7942 - val_loss: 0.0028 - val_acc: 0.5340
+Epoch 138/300
+ - 23s - loss: 9.4297e-06 - acc: 0.7956 - val_loss: 0.0028 - val_acc: 0.5371
+Epoch 139/300
+ - 23s - loss: 1.0783e-05 - acc: 0.7961 - val_loss: 0.0028 - val_acc: 0.5340
+Epoch 140/300
+ - 23s - loss: 1.0966e-05 - acc: 0.7987 - val_loss: 0.0028 - val_acc: 0.5308
+Epoch 141/300
+ - 23s - loss: 1.1295e-05 - acc: 0.8012 - val_loss: 0.0028 - val_acc: 0.5419
+Epoch 142/300
+ - 23s - loss: 1.1125e-05 - acc: 0.7989 - val_loss: 0.0027 - val_acc: 0.5355
+Epoch 143/300
+ - 23s - loss: 1.1273e-05 - acc: 0.7961 - val_loss: 0.0028 - val_acc: 0.5245
+Epoch 144/300
+ - 23s - loss: 1.0555e-05 - acc: 0.7998 - val_loss: 0.0028 - val_acc: 0.5340
+Epoch 145/300
+ - 23s - loss: 9.3099e-06 - acc: 0.8017 - val_loss: 0.0028 - val_acc: 0.5324
+Epoch 146/300
+ - 23s - loss: 1.0080e-05 - acc: 0.8052 - val_loss: 0.0028 - val_acc: 0.5419
+Epoch 147/300
+ - 23s - loss: 1.0386e-05 - acc: 0.8066 - val_loss: 0.0028 - val_acc: 0.5434
+Epoch 148/300
+ - 23s - loss: 9.5151e-06 - acc: 0.8050 - val_loss: 0.0028 - val_acc: 0.5403
+Epoch 149/300
+ - 23s - loss: 1.0472e-05 - acc: 0.8022 - val_loss: 0.0028 - val_acc: 0.5292
+Epoch 150/300
+ - 23s - loss: 9.9763e-06 - acc: 0.8145 - val_loss: 0.0028 - val_acc: 0.5355
+Epoch 151/300
+ - 23s - loss: 9.8585e-06 - acc: 0.8044 - val_loss: 0.0028 - val_acc: 0.5276
+Epoch 152/300
+ - 23s - loss: 8.3716e-06 - acc: 0.8107 - val_loss: 0.0028 - val_acc: 0.5308
+Epoch 153/300
+ - 23s - loss: 1.0211e-05 - acc: 0.8038 - val_loss: 0.0028 - val_acc: 0.5371
+Epoch 154/300
+ - 23s - loss: 8.9372e-06 - acc: 0.8056 - val_loss: 0.0028 - val_acc: 0.5355
+Epoch 155/300
+ - 23s - loss: 9.1639e-06 - acc: 0.8075 - val_loss: 0.0028 - val_acc: 0.5324
+Epoch 156/300
+ - 23s - loss: 9.2107e-06 - acc: 0.8112 - val_loss: 0.0028 - val_acc: 0.5324
+Epoch 157/300
+ - 23s - loss: 9.4452e-06 - acc: 0.8128 - val_loss: 0.0028 - val_acc: 0.5340
+Epoch 158/300
+ - 23s - loss: 9.5799e-06 - acc: 0.8091 - val_loss: 0.0028 - val_acc: 0.5324
+Epoch 159/300
+ - 23s - loss: 9.5165e-06 - acc: 0.8103 - val_loss: 0.0028 - val_acc: 0.5276
+Epoch 160/300
+ - 23s - loss: 8.8793e-06 - acc: 0.8151 - val_loss: 0.0028 - val_acc: 0.5245
+Epoch 161/300
+ - 23s - loss: 9.3823e-06 - acc: 0.8086 - val_loss: 0.0028 - val_acc: 0.5482
+Epoch 162/300
+ - 23s - loss: 9.1194e-06 - acc: 0.8140 - val_loss: 0.0028 - val_acc: 0.5261
+Epoch 163/300
+ - 23s - loss: 7.4011e-06 - acc: 0.8159 - val_loss: 0.0028 - val_acc: 0.5276
+Epoch 164/300
+ - 23s - loss: 7.4146e-06 - acc: 0.8156 - val_loss: 0.0028 - val_acc: 0.5324
+Epoch 165/300
+ - 23s - loss: 7.4964e-06 - acc: 0.8138 - val_loss: 0.0028 - val_acc: 0.5371
+Epoch 166/300
+ - 23s - loss: 8.0584e-06 - acc: 0.8177 - val_loss: 0.0028 - val_acc: 0.5292
+Epoch 167/300
+ - 23s - loss: 8.1048e-06 - acc: 0.8173 - val_loss: 0.0028 - val_acc: 0.5324
+Epoch 168/300
+ - 23s - loss: 8.1642e-06 - acc: 0.8179 - val_loss: 0.0028 - val_acc: 0.5371
+Epoch 169/300
+ - 24s - loss: 7.4634e-06 - acc: 0.8216 - val_loss: 0.0028 - val_acc: 0.5371
+Epoch 170/300
+ - 23s - loss: 7.0642e-06 - acc: 0.8244 - val_loss: 0.0028 - val_acc: 0.5308
+Epoch 171/300
+ - 23s - loss: 7.8915e-06 - acc: 0.8207 - val_loss: 0.0028 - val_acc: 0.5308
+Epoch 172/300
+ - 23s - loss: 7.9569e-06 - acc: 0.8207 - val_loss: 0.0028 - val_acc: 0.5340
+Epoch 173/300
+ - 23s - loss: 7.5654e-06 - acc: 0.8240 - val_loss: 0.0028 - val_acc: 0.5308
+Epoch 174/300
+ - 23s - loss: 7.8681e-06 - acc: 0.8274 - val_loss: 0.0028 - val_acc: 0.5292
+Epoch 175/300
+ - 23s - loss: 7.4231e-06 - acc: 0.8260 - val_loss: 0.0028 - val_acc: 0.5292
+Epoch 176/300
+ - 24s - loss: 7.0948e-06 - acc: 0.8233 - val_loss: 0.0028 - val_acc: 0.5387
+Epoch 177/300
+ - 23s - loss: 7.6004e-06 - acc: 0.8284 - val_loss: 0.0028 - val_acc: 0.5340
+Epoch 178/300
+ - 23s - loss: 6.8611e-06 - acc: 0.8301 - val_loss: 0.0028 - val_acc: 0.5371
+Epoch 179/300
+ - 23s - loss: 6.6508e-06 - acc: 0.8259 - val_loss: 0.0028 - val_acc: 0.5371
+Epoch 180/300
+ - 23s - loss: 6.7906e-06 - acc: 0.8352 - val_loss: 0.0028 - val_acc: 0.5261
+Epoch 181/300
+ - 23s - loss: 6.6630e-06 - acc: 0.8233 - val_loss: 0.0028 - val_acc: 0.5292
+Epoch 182/300
+ - 23s - loss: 6.7131e-06 - acc: 0.8286 - val_loss: 0.0028 - val_acc: 0.5340
+Epoch 183/300
+ - 23s - loss: 6.5736e-06 - acc: 0.8331 - val_loss: 0.0028 - val_acc: 0.5403
+Epoch 184/300
+ - 23s - loss: 6.6580e-06 - acc: 0.8267 - val_loss: 0.0028 - val_acc: 0.5371
+Epoch 185/300
+ - 23s - loss: 6.4709e-06 - acc: 0.8281 - val_loss: 0.0028 - val_acc: 0.5403
+Epoch 186/300
+ - 23s - loss: 6.3053e-06 - acc: 0.8307 - val_loss: 0.0028 - val_acc: 0.5498
+Epoch 187/300
+ - 23s - loss: 6.8443e-06 - acc: 0.8347 - val_loss: 0.0028 - val_acc: 0.5371
+Epoch 188/300
+ - 23s - loss: 6.0849e-06 - acc: 0.8335 - val_loss: 0.0028 - val_acc: 0.5371
+Epoch 189/300
+ - 23s - loss: 5.9270e-06 - acc: 0.8339 - val_loss: 0.0028 - val_acc: 0.5403
+Epoch 190/300
+ - 23s - loss: 5.9150e-06 - acc: 0.8337 - val_loss: 0.0028 - val_acc: 0.5403
+Epoch 191/300
+ - 23s - loss: 6.2448e-06 - acc: 0.8363 - val_loss: 0.0028 - val_acc: 0.5340
+Epoch 192/300
+ - 23s - loss: 5.8509e-06 - acc: 0.8351 - val_loss: 0.0028 - val_acc: 0.5513
+Epoch 193/300
+ - 23s - loss: 5.6400e-06 - acc: 0.8375 - val_loss: 0.0028 - val_acc: 0.5450
+Epoch 194/300
+ - 23s - loss: 5.1784e-06 - acc: 0.8321 - val_loss: 0.0028 - val_acc: 0.5403
+Epoch 195/300
+ - 23s - loss: 5.9409e-06 - acc: 0.8379 - val_loss: 0.0028 - val_acc: 0.5355
+Epoch 196/300
+ - 23s - loss: 5.3558e-06 - acc: 0.8444 - val_loss: 0.0028 - val_acc: 0.5387
+Epoch 197/300
+ - 23s - loss: 5.7221e-06 - acc: 0.8386 - val_loss: 0.0028 - val_acc: 0.5403
+Epoch 198/300
+ - 23s - loss: 6.2853e-06 - acc: 0.8374 - val_loss: 0.0028 - val_acc: 0.5308
+Epoch 199/300
+ - 23s - loss: 6.2624e-06 - acc: 0.8403 - val_loss: 0.0028 - val_acc: 0.5292
+Epoch 200/300
+ - 24s - loss: 5.7761e-06 - acc: 0.8389 - val_loss: 0.0028 - val_acc: 0.5340
+Epoch 201/300
+ - 23s - loss: 5.4243e-06 - acc: 0.8401 - val_loss: 0.0028 - val_acc: 0.5340
+Epoch 202/300
+ - 23s - loss: 5.3787e-06 - acc: 0.8388 - val_loss: 0.0028 - val_acc: 0.5419
+Epoch 203/300
+ - 23s - loss: 5.2097e-06 - acc: 0.8400 - val_loss: 0.0028 - val_acc: 0.5371
+Epoch 204/300
+ - 23s - loss: 5.7312e-06 - acc: 0.8426 - val_loss: 0.0028 - val_acc: 0.5371
+Epoch 205/300
+ - 23s - loss: 5.7840e-06 - acc: 0.8425 - val_loss: 0.0028 - val_acc: 0.5466
+Epoch 206/300
+ - 23s - loss: 5.3739e-06 - acc: 0.8379 - val_loss: 0.0028 - val_acc: 0.5403
+Epoch 207/300
+ - 23s - loss: 5.3261e-06 - acc: 0.8453 - val_loss: 0.0028 - val_acc: 0.5450
+Epoch 208/300
+ - 23s - loss: 4.8986e-06 - acc: 0.8449 - val_loss: 0.0028 - val_acc: 0.5340
+Epoch 209/300
+ - 23s - loss: 5.9200e-06 - acc: 0.8426 - val_loss: 0.0028 - val_acc: 0.5403
+Epoch 210/300
+ - 23s - loss: 4.7239e-06 - acc: 0.8386 - val_loss: 0.0028 - val_acc: 0.5340
+Epoch 211/300
+ - 23s - loss: 4.9760e-06 - acc: 0.8484 - val_loss: 0.0028 - val_acc: 0.5355
+Epoch 212/300
+ - 23s - loss: 5.2384e-06 - acc: 0.8474 - val_loss: 0.0028 - val_acc: 0.5387
+Epoch 213/300
+ - 23s - loss: 5.4855e-06 - acc: 0.8481 - val_loss: 0.0028 - val_acc: 0.5324
+Epoch 214/300
+ - 23s - loss: 5.8289e-06 - acc: 0.8477 - val_loss: 0.0028 - val_acc: 0.5355
+Epoch 215/300
+ - 23s - loss: 4.6683e-06 - acc: 0.8439 - val_loss: 0.0028 - val_acc: 0.5340
+Epoch 216/300
+ - 23s - loss: 4.9624e-06 - acc: 0.8516 - val_loss: 0.0028 - val_acc: 0.5561
+Epoch 217/300
+ - 23s - loss: 4.8363e-06 - acc: 0.8490 - val_loss: 0.0028 - val_acc: 0.5324
+Epoch 218/300
+ - 23s - loss: 4.8233e-06 - acc: 0.8533 - val_loss: 0.0028 - val_acc: 0.5355
+Epoch 219/300
+ - 23s - loss: 4.4627e-06 - acc: 0.8489 - val_loss: 0.0028 - val_acc: 0.5529
+Epoch 220/300
+ - 23s - loss: 4.9284e-06 - acc: 0.8477 - val_loss: 0.0028 - val_acc: 0.5482
+Epoch 221/300
+ - 23s - loss: 5.0167e-06 - acc: 0.8496 - val_loss: 0.0028 - val_acc: 0.5355
+Epoch 222/300
+ - 23s - loss: 5.4023e-06 - acc: 0.8502 - val_loss: 0.0028 - val_acc: 0.5529
+Epoch 223/300
+ - 23s - loss: 5.3273e-06 - acc: 0.8512 - val_loss: 0.0028 - val_acc: 0.5355
+Epoch 224/300
+ - 23s - loss: 4.7999e-06 - acc: 0.8505 - val_loss: 0.0028 - val_acc: 0.5371
+Epoch 225/300
+ - 23s - loss: 4.7577e-06 - acc: 0.8584 - val_loss: 0.0028 - val_acc: 0.5450
+Epoch 226/300
+ - 23s - loss: 4.3596e-06 - acc: 0.8526 - val_loss: 0.0028 - val_acc: 0.5387
+Epoch 227/300
+ - 23s - loss: 4.4126e-06 - acc: 0.8549 - val_loss: 0.0028 - val_acc: 0.5340
+Epoch 228/300
+ - 23s - loss: 4.4277e-06 - acc: 0.8547 - val_loss: 0.0028 - val_acc: 0.5466
+Epoch 229/300
+ - 23s - loss: 4.2825e-06 - acc: 0.8540 - val_loss: 0.0028 - val_acc: 0.5371
+Epoch 230/300
+ - 23s - loss: 4.4262e-06 - acc: 0.8551 - val_loss: 0.0028 - val_acc: 0.5513
+Epoch 231/300
+ - 23s - loss: 3.8304e-06 - acc: 0.8591 - val_loss: 0.0028 - val_acc: 0.5355
+Epoch 232/300
+ - 23s - loss: 4.2582e-06 - acc: 0.8565 - val_loss: 0.0028 - val_acc: 0.5498
+Epoch 233/300
+ - 23s - loss: 4.0979e-06 - acc: 0.8556 - val_loss: 0.0028 - val_acc: 0.5498
+Epoch 234/300
+ - 23s - loss: 4.3412e-06 - acc: 0.8598 - val_loss: 0.0028 - val_acc: 0.5419
+Epoch 235/300
+ - 23s - loss: 3.9404e-06 - acc: 0.8590 - val_loss: 0.0028 - val_acc: 0.5308
+Epoch 236/300
+ - 23s - loss: 4.3895e-06 - acc: 0.8653 - val_loss: 0.0028 - val_acc: 0.5355
+Epoch 237/300
+ - 23s - loss: 4.3534e-06 - acc: 0.8590 - val_loss: 0.0028 - val_acc: 0.5355
+Epoch 238/300
+ - 23s - loss: 4.3805e-06 - acc: 0.8628 - val_loss: 0.0028 - val_acc: 0.5403
+Epoch 239/300
+ - 23s - loss: 4.4659e-06 - acc: 0.8583 - val_loss: 0.0028 - val_acc: 0.5371
+Epoch 240/300
+ - 23s - loss: 4.5653e-06 - acc: 0.8616 - val_loss: 0.0028 - val_acc: 0.5403
+Epoch 241/300
+ - 23s - loss: 4.4150e-06 - acc: 0.8583 - val_loss: 0.0028 - val_acc: 0.5340
+Epoch 242/300
+ - 23s - loss: 4.5149e-06 - acc: 0.8614 - val_loss: 0.0028 - val_acc: 0.5419
+Epoch 243/300
+ - 23s - loss: 4.8127e-06 - acc: 0.8630 - val_loss: 0.0028 - val_acc: 0.5292
+Epoch 244/300
+ - 23s - loss: 4.2313e-06 - acc: 0.8618 - val_loss: 0.0028 - val_acc: 0.5371
+Epoch 245/300
+ - 23s - loss: 3.8167e-06 - acc: 0.8677 - val_loss: 0.0028 - val_acc: 0.5371
+Epoch 246/300
+ - 23s - loss: 3.5448e-06 - acc: 0.8639 - val_loss: 0.0028 - val_acc: 0.5340
+Epoch 247/300
+ - 23s - loss: 3.5332e-06 - acc: 0.8656 - val_loss: 0.0028 - val_acc: 0.5403
+Epoch 248/300
+ - 23s - loss: 3.8641e-06 - acc: 0.8654 - val_loss: 0.0028 - val_acc: 0.5450
+Epoch 249/300
+ - 23s - loss: 3.6594e-06 - acc: 0.8677 - val_loss: 0.0028 - val_acc: 0.5466
+Epoch 250/300
+ - 23s - loss: 3.7379e-06 - acc: 0.8658 - val_loss: 0.0028 - val_acc: 0.5466
+Epoch 251/300
+ - 24s - loss: 3.6687e-06 - acc: 0.8688 - val_loss: 0.0028 - val_acc: 0.5450
+Epoch 252/300
+ - 23s - loss: 3.5930e-06 - acc: 0.8681 - val_loss: 0.0028 - val_acc: 0.5355
+Epoch 253/300
+ - 23s - loss: 3.6221e-06 - acc: 0.8681 - val_loss: 0.0028 - val_acc: 0.5513
+Epoch 254/300
+ - 24s - loss: 3.6483e-06 - acc: 0.8670 - val_loss: 0.0028 - val_acc: 0.5403
+Epoch 255/300
+ - 23s - loss: 3.4880e-06 - acc: 0.8690 - val_loss: 0.0028 - val_acc: 0.5498
+Epoch 256/300
+ - 23s - loss: 3.6956e-06 - acc: 0.8676 - val_loss: 0.0028 - val_acc: 0.5355
+Epoch 257/300
+ - 23s - loss: 3.8442e-06 - acc: 0.8718 - val_loss: 0.0028 - val_acc: 0.5434
+Epoch 258/300
+ - 23s - loss: 4.0198e-06 - acc: 0.8726 - val_loss: 0.0028 - val_acc: 0.5498
+Epoch 259/300
+ - 23s - loss: 4.0308e-06 - acc: 0.8670 - val_loss: 0.0028 - val_acc: 0.5355
+Epoch 260/300
+ - 23s - loss: 3.8447e-06 - acc: 0.8658 - val_loss: 0.0028 - val_acc: 0.5403
+Epoch 261/300
+ - 23s - loss: 3.9795e-06 - acc: 0.8713 - val_loss: 0.0028 - val_acc: 0.5403
+Epoch 262/300
+ - 23s - loss: 4.0221e-06 - acc: 0.8697 - val_loss: 0.0028 - val_acc: 0.5355
+Epoch 263/300
+ - 23s - loss: 3.7259e-06 - acc: 0.8691 - val_loss: 0.0028 - val_acc: 0.5450
+Epoch 264/300
+ - 23s - loss: 3.7395e-06 - acc: 0.8735 - val_loss: 0.0028 - val_acc: 0.5403
+Epoch 265/300
+ - 23s - loss: 3.3956e-06 - acc: 0.8718 - val_loss: 0.0028 - val_acc: 0.5419
+Epoch 266/300
+ - 23s - loss: 3.3101e-06 - acc: 0.8721 - val_loss: 0.0028 - val_acc: 0.5324
+Epoch 267/300
+ - 23s - loss: 3.5263e-06 - acc: 0.8748 - val_loss: 0.0028 - val_acc: 0.5482
+Epoch 268/300
+ - 23s - loss: 3.6004e-06 - acc: 0.8753 - val_loss: 0.0028 - val_acc: 0.5513
+Epoch 269/300
+ - 23s - loss: 3.1526e-06 - acc: 0.8733 - val_loss: 0.0028 - val_acc: 0.5498
+Epoch 270/300
+ - 23s - loss: 3.2602e-06 - acc: 0.8751 - val_loss: 0.0028 - val_acc: 0.5387
+Epoch 271/300
+ - 23s - loss: 3.1372e-06 - acc: 0.8732 - val_loss: 0.0028 - val_acc: 0.5403
+Epoch 272/300
+ - 23s - loss: 3.1762e-06 - acc: 0.8742 - val_loss: 0.0028 - val_acc: 0.5403
+Epoch 273/300
+ - 23s - loss: 3.0018e-06 - acc: 0.8763 - val_loss: 0.0028 - val_acc: 0.5482
+Epoch 274/300
+ - 23s - loss: 3.2402e-06 - acc: 0.8756 - val_loss: 0.0028 - val_acc: 0.5403
+Epoch 275/300
+ - 24s - loss: 3.0612e-06 - acc: 0.8772 - val_loss: 0.0028 - val_acc: 0.5387
+Epoch 276/300
+ - 23s - loss: 2.8412e-06 - acc: 0.8795 - val_loss: 0.0028 - val_acc: 0.5466
+Epoch 277/300
+ - 23s - loss: 2.7763e-06 - acc: 0.8781 - val_loss: 0.0028 - val_acc: 0.5450
+Epoch 278/300
+ - 23s - loss: 3.1579e-06 - acc: 0.8763 - val_loss: 0.0028 - val_acc: 0.5403
+Epoch 279/300
+ - 23s - loss: 2.8033e-06 - acc: 0.8788 - val_loss: 0.0028 - val_acc: 0.5498
+Epoch 280/300
+ - 23s - loss: 2.8806e-06 - acc: 0.8755 - val_loss: 0.0028 - val_acc: 0.5403
+Epoch 281/300
+ - 23s - loss: 2.9737e-06 - acc: 0.8802 - val_loss: 0.0028 - val_acc: 0.5403
+Epoch 282/300
+ - 23s - loss: 3.0082e-06 - acc: 0.8800 - val_loss: 0.0028 - val_acc: 0.5513
+Epoch 283/300
+ - 23s - loss: 3.0122e-06 - acc: 0.8811 - val_loss: 0.0028 - val_acc: 0.5419
+Epoch 284/300
+ - 23s - loss: 3.3721e-06 - acc: 0.8769 - val_loss: 0.0028 - val_acc: 0.5434
+Epoch 285/300
+ - 23s - loss: 3.2635e-06 - acc: 0.8816 - val_loss: 0.0028 - val_acc: 0.5434
+Epoch 286/300
+ - 23s - loss: 3.0173e-06 - acc: 0.8813 - val_loss: 0.0028 - val_acc: 0.5498
+Epoch 287/300
+ - 23s - loss: 3.3189e-06 - acc: 0.8846 - val_loss: 0.0028 - val_acc: 0.5498
+Epoch 288/300
+ - 23s - loss: 3.0382e-06 - acc: 0.8797 - val_loss: 0.0028 - val_acc: 0.5419
+Epoch 289/300
+ - 24s - loss: 3.2201e-06 - acc: 0.8799 - val_loss: 0.0028 - val_acc: 0.5466
+Epoch 290/300
+ - 23s - loss: 2.9249e-06 - acc: 0.8826 - val_loss: 0.0028 - val_acc: 0.5419
+Epoch 291/300
+ - 23s - loss: 3.0770e-06 - acc: 0.8837 - val_loss: 0.0028 - val_acc: 0.5434
+Epoch 292/300
+ - 23s - loss: 2.9389e-06 - acc: 0.8820 - val_loss: 0.0028 - val_acc: 0.5466
+Epoch 293/300
+ - 23s - loss: 3.0442e-06 - acc: 0.8825 - val_loss: 0.0028 - val_acc: 0.5434
+Epoch 294/300
+ - 23s - loss: 3.3322e-06 - acc: 0.8814 - val_loss: 0.0028 - val_acc: 0.5482
+Epoch 295/300
+ - 23s - loss: 3.0510e-06 - acc: 0.8820 - val_loss: 0.0028 - val_acc: 0.5419
+Epoch 296/300
+ - 23s - loss: 3.4176e-06 - acc: 0.8802 - val_loss: 0.0028 - val_acc: 0.5466
+Epoch 297/300
+ - 23s - loss: 3.4710e-06 - acc: 0.8839 - val_loss: 0.0028 - val_acc: 0.5434
+Epoch 298/300
+ - 23s - loss: 3.5426e-06 - acc: 0.8821 - val_loss: 0.0028 - val_acc: 0.5482
+Epoch 299/300
+ - 23s - loss: 3.2299e-06 - acc: 0.8821 - val_loss: 0.0028 - val_acc: 0.5466
+Epoch 300/300
+ - 23s - loss: 3.3015e-06 - acc: 0.8846 - val_loss: 0.0028 - val_acc: 0.5466
+[INFO] serializing network and label binarizer...
+k-fold cross validation:
+Done!
