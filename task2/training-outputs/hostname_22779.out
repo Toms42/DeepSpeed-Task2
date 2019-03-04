@@ -1,0 +1,6 @@
+Starting Docker Image
+/data/datasets/tscherli/task2
+CONTAINER ID        IMAGE                    COMMAND             CREATED             STATUS              PORTS                NAMES
+765acb75ceb0        tscherli/alphatraining   "/bin/bash"         About an hour ago   Up About an hour    6006/tcp, 8888/tcp   agitated_joliot
+CONTAINER ID        IMAGE                    COMMAND             CREATED             STATUS              PORTS                NAMES
+765acb75ceb0        tscherli/alphatraining   "/bin/bash"         About an hour ago   Up About an hour    6006/tcp, 8888/tcp   agitated_joliot

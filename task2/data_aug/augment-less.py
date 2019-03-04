@@ -25,8 +25,8 @@ from random import uniform
 
 DATADIR = '/data/datasets/tscherli/Data_Training/'
 JSON_IN = '/data/datasets/tscherli/goodlabels.json'
-OUTDIR = '/data/datasets/tscherli/augmented/'
-JSON_OUT = '/data/datasets/tscherli/augmentedlabels.json'
+OUTDIR = '/data/datasets/tscherli/augmented-less/'
+JSON_OUT = '/data/datasets/tscherli/lessaugmentedlabels.json'
 LABEL_H = 864
 LABEL_W = 1296
 IMG_H = 864
@@ -38,20 +38,20 @@ DRAWLABELS = False
 
 #Transformative parameters:
 THETAMAX = 20
-TRANSMAX = 0.2 * IMG_H
-ISCALEMAX = 1.5
-ISCALEMIN = 0.7
-NISCALEMAX = 1.3
-NISCALEMIN = 0.7
-SHEERMAX= 0.3
+TRANSMAX = 10
+ISCALEMAX = 1.1
+ISCALEMIN = 0.9
+NISCALEMAX = 1.2
+NISCALEMIN = 0.8
+SHEERMAX= 0.2
 
 #Color balance parameters
-MINSATURATION = 0.5
-MAXSATURATION = 2
-MINHUE = -20
-MAXHUE = 20
-MINBRIGHTNESS = -40
-MAXBRIGHTNESS = 40
+MINSATURATION = 0.7
+MAXSATURATION = 1.4
+MINHUE = -10
+MAXHUE = 10
+MINBRIGHTNESS = -20
+MAXBRIGHTNESS = 20
 
 def pairwise(a):
   out = []

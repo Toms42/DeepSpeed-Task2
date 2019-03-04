@@ -20,9 +20,9 @@ from skimage.io import imread
 from skimage.transform import resize
 import glob
 
-IMGDIR = '/data/datasets/tscherli/Data_LeaderboardTesting/'
-OUTDIR = '/data/datasets/tscherli/Outdir/600x-400e-133p33p3p-40/'
-JSON_PRED = '/data/datasets/tscherli/task2/starter_scripts_v2/my_submission-600x-400e-133p33p3p-40.json'
+IMGDIR = '/data/datasets/tscherli/augmented/'
+OUTDIR = '/data/datasets/tscherli/Outdir/Augmented-drawn/'
+JSON_PRED = '/data/datasets/tscherli/augmentedlabels.json'
 JSON_TRUTH = '/data/datasets/tscherli/training_GT_labels_v2.json'
 NOGT = True
 IMGH = 864
@@ -69,9 +69,9 @@ for filename in filenames:
     labels.append(y)
 
   image_with_rectangle = cv2.imread(IMGDIR+filename)
-  cv2.line(image_with_rectangle,(labels[0],labels[1]),(labels[2],labels[3]),(0,150,0),5)
-  cv2.line(image_with_rectangle,(labels[2],labels[3]),(labels[4],labels[5]),(0,255,0),5)
-  cv2.line(image_with_rectangle,(labels[4],labels[5]),(labels[6],labels[7]),(0,255,0),5)
+  cv2.line(image_with_rectangle,(labels[0],labels[1]),(labels[2],labels[3]),(0,100,0),5)
+  cv2.line(image_with_rectangle,(labels[2],labels[3]),(labels[4],labels[5]),(0,150,0),5)
+  cv2.line(image_with_rectangle,(labels[4],labels[5]),(labels[6],labels[7]),(0,200,0),5)
   cv2.line(image_with_rectangle,(labels[6],labels[7]),(labels[0],labels[1]),(0,255,0),5)
 
   if not NOGT:
