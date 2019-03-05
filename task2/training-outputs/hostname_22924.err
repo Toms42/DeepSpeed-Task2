@@ -1,0 +1,88 @@
+/home/tscherli/.bashrc: line 15: bind: warning: line editing not enabled
+/home/tscherli/.bashrc: line 16: bind: warning: line editing not enabled
+/home/tscherli/.bashrc: line 17: bind: warning: line editing not enabled
+/home/tscherli/.bashrc: line 18: bind: warning: line editing not enabled
++ wait
++ nvidia-docker run -v /data/datasets:/data/datasets -v /home/tscherli:/home/tscherli tscherli/alphatraining python3 /data/datasets/tscherli/task2/train/resbase/resgates3.py
+2019-03-05 09:11:13.724959: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-03-05 09:11:14.051575: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1432] Found device 0 with properties: 
+name: TITAN X (Pascal) major: 6 minor: 1 memoryClockRate(GHz): 1.531
+pciBusID: 0000:03:00.0
+totalMemory: 11.91GiB freeMemory: 11.75GiB
+2019-03-05 09:11:14.268046: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1432] Found device 1 with properties: 
+name: TITAN X (Pascal) major: 6 minor: 1 memoryClockRate(GHz): 1.531
+pciBusID: 0000:81:00.0
+totalMemory: 11.91GiB freeMemory: 11.75GiB
+2019-03-05 09:11:14.268168: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0, 1
+2019-03-05 09:11:20.427320: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-03-05 09:11:20.427379: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 1 
+2019-03-05 09:11:20.427386: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N N 
+2019-03-05 09:11:20.427391: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 1:   N N 
+2019-03-05 09:11:20.428265: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11374 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:03:00.0, compute capability: 6.1)
+2019-03-05 09:11:20.486015: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:1 with 11374 MB memory) -> physical GPU (device: 1, name: TITAN X (Pascal), pci bus id: 0000:81:00.0, compute capability: 6.1)
+Using TensorFlow backend.
+/usr/local/lib/python3.5/dist-packages/keras_applications/resnet50.py:265: UserWarning: The output shape of `ResNet50(include_top=False)` has been changed since Keras 2.2.0.
+  warnings.warn('The output shape of `ResNet50(include_top=False)` '
+/data/datasets/tscherli/task2/train/resbase/resgates3.py:147: UserWarning: Update your `Conv2D` call to the Keras 2 API: `Conv2D(1024, (3, 2), activation="relu", kernel_initializer="he_normal")`
+  model.add(Conv2D(1024,3,2, activation="relu",kernel_initializer='he_normal'))
+/data/datasets/tscherli/task2/train/resbase/resgates3.py:148: UserWarning: Update your `Conv2D` call to the Keras 2 API: `Conv2D(512, (3, 2), activation="relu", kernel_initializer="he_normal")`
+  model.add(Conv2D(512,3,2, activation="relu",kernel_initializer='he_normal'))
+/data/datasets/tscherli/task2/train/resbase/resgates3.py:149: UserWarning: Update your `Conv2D` call to the Keras 2 API: `Conv2D(256, (3, 2), activation="relu", kernel_initializer="he_normal")`
+  model.add(Conv2D(256,3,2, activation="relu",kernel_initializer='he_normal'))
+/data/datasets/tscherli/task2/train/resbase/resgates3.py:150: UserWarning: Update your `Conv2D` call to the Keras 2 API: `Conv2D(128, (3, 2), activation="relu", kernel_initializer="he_normal")`
+  model.add(Conv2D(128,3,2, activation="relu",kernel_initializer='he_normal'))
+2019-03-05 09:12:31.920031: E tensorflow/stream_executor/cuda/cuda_driver.cc:806] failed to allocate 11.11G (11926932480 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2019-03-05 09:12:31.921480: E tensorflow/stream_executor/cuda/cuda_driver.cc:806] failed to allocate 10.00G (10734238720 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2019-03-05 09:12:31.922853: E tensorflow/stream_executor/cuda/cuda_driver.cc:806] failed to allocate 9.00G (9660814336 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2019-03-05 09:12:31.924216: E tensorflow/stream_executor/cuda/cuda_driver.cc:806] failed to allocate 8.10G (8694732800 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2019-03-05 09:12:31.925620: E tensorflow/stream_executor/cuda/cuda_driver.cc:806] failed to allocate 7.29G (7825259520 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2019-03-05 09:12:31.926990: E tensorflow/stream_executor/cuda/cuda_driver.cc:806] failed to allocate 6.56G (7042733568 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2019-03-05 09:12:31.928361: E tensorflow/stream_executor/cuda/cuda_driver.cc:806] failed to allocate 5.90G (6338460160 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2019-03-05 09:12:31.929718: E tensorflow/stream_executor/cuda/cuda_driver.cc:806] failed to allocate 5.31G (5704613888 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2019-03-05 09:12:31.931076: E tensorflow/stream_executor/cuda/cuda_driver.cc:806] failed to allocate 4.78G (5134152192 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2019-03-05 09:12:31.932437: E tensorflow/stream_executor/cuda/cuda_driver.cc:806] failed to allocate 4.30G (4620737024 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2019-03-05 09:12:31.933835: E tensorflow/stream_executor/cuda/cuda_driver.cc:806] failed to allocate 3.87G (4158663168 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2019-03-05 09:12:31.935194: E tensorflow/stream_executor/cuda/cuda_driver.cc:806] failed to allocate 3.49G (3742796800 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2019-03-05 09:12:31.936556: E tensorflow/stream_executor/cuda/cuda_driver.cc:806] failed to allocate 3.14G (3368517120 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2019-03-05 09:12:31.937917: E tensorflow/stream_executor/cuda/cuda_driver.cc:806] failed to allocate 2.82G (3031665408 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2019-03-05 09:12:31.939277: E tensorflow/stream_executor/cuda/cuda_driver.cc:806] failed to allocate 2.54G (2728498688 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2019-03-05 09:12:31.940681: E tensorflow/stream_executor/cuda/cuda_driver.cc:806] failed to allocate 2.29G (2455648768 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2019-03-05 09:12:31.942038: E tensorflow/stream_executor/cuda/cuda_driver.cc:806] failed to allocate 2.06G (2210083840 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2019-03-05 09:12:31.943403: E tensorflow/stream_executor/cuda/cuda_driver.cc:806] failed to allocate 1.85G (1989075456 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2019-03-05 09:12:31.944785: E tensorflow/stream_executor/cuda/cuda_driver.cc:806] failed to allocate 1.67G (1790167808 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2019-03-05 09:12:31.946140: E tensorflow/stream_executor/cuda/cuda_driver.cc:806] failed to allocate 1.50G (1611151104 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2019-03-05 09:12:31.947496: E tensorflow/stream_executor/cuda/cuda_driver.cc:806] failed to allocate 1.35G (1450035968 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2019-03-05 09:12:31.948852: E tensorflow/stream_executor/cuda/cuda_driver.cc:806] failed to allocate 1.21G (1305032448 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2019-03-05 09:12:31.950207: E tensorflow/stream_executor/cuda/cuda_driver.cc:806] failed to allocate 1.09G (1174529280 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2019-03-05 09:12:31.951572: E tensorflow/stream_executor/cuda/cuda_driver.cc:806] failed to allocate 1008.11M (1057076480 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2019-03-05 09:12:31.952967: E tensorflow/stream_executor/cuda/cuda_driver.cc:806] failed to allocate 907.30M (951368960 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2019-03-05 09:12:31.954324: E tensorflow/stream_executor/cuda/cuda_driver.cc:806] failed to allocate 816.57M (856232192 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2019-03-05 09:12:31.955718: E tensorflow/stream_executor/cuda/cuda_driver.cc:806] failed to allocate 734.91M (770609152 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2019-03-05 09:12:31.957100: E tensorflow/stream_executor/cuda/cuda_driver.cc:806] failed to allocate 661.42M (693548288 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2019-03-05 09:12:31.958486: E tensorflow/stream_executor/cuda/cuda_driver.cc:806] failed to allocate 595.28M (624193536 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2019-03-05 09:12:33.961021: E tensorflow/stream_executor/cuda/cuda_dnn.cc:373] Could not create cudnn handle: CUDNN_STATUS_INTERNAL_ERROR
+2019-03-05 09:12:34.054057: E tensorflow/stream_executor/cuda/cuda_dnn.cc:373] Could not create cudnn handle: CUDNN_STATUS_INTERNAL_ERROR
+Traceback (most recent call last):
+  File "/data/datasets/tscherli/task2/train/resbase/resgates3.py", line 177, in <module>
+    max_queue_size = 1
+  File "/usr/local/lib/python3.5/dist-packages/keras/legacy/interfaces.py", line 91, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/keras/engine/training.py", line 1418, in fit_generator
+    initial_epoch=initial_epoch)
+  File "/usr/local/lib/python3.5/dist-packages/keras/engine/training_generator.py", line 217, in fit_generator
+    class_weight=class_weight)
+  File "/usr/local/lib/python3.5/dist-packages/keras/engine/training.py", line 1217, in train_on_batch
+    outputs = self.train_function(ins)
+  File "/usr/local/lib/python3.5/dist-packages/keras/backend/tensorflow_backend.py", line 2715, in __call__
+    return self._call(inputs)
+  File "/usr/local/lib/python3.5/dist-packages/keras/backend/tensorflow_backend.py", line 2675, in _call
+    fetched = self._callable_fn(*array_vals)
+  File "/usr/local/lib/python3.5/dist-packages/tensorflow/python/client/session.py", line 1439, in __call__
+    run_metadata_ptr)
+  File "/usr/local/lib/python3.5/dist-packages/tensorflow/python/framework/errors_impl.py", line 528, in __exit__
+    c_api.TF_GetCode(self.status.status))
+tensorflow.python.framework.errors_impl.UnknownError: Failed to get convolution algorithm. This is probably because cuDNN failed to initialize, so try looking to see if a warning log message was printed above.
+	 [[{{node replica_1/sequential_1/resnet50/conv1/convolution}} = Conv2D[T=DT_FLOAT, _class=["loc:@train...propFilter"], data_format="NCHW", dilations=[1, 1, 1, 1], padding="VALID", strides=[1, 1, 2, 2], use_cudnn_on_gpu=true, _device="/job:localhost/replica:0/task:0/device:GPU:1"](training/Adam/gradients/replica_1/sequential_1/resnet50/conv1/convolution_grad/Conv2DBackpropFilter-0-TransposeNHWCToNCHW-LayoutOptimizer, conv1/kernel/read/_5011)]]
+	 [[{{node training/Adam/gradients/loss/dense_2_loss/sub_grad/Reshape/_6343}} = _Recv[client_terminated=false, recv_device="/job:localhost/replica:0/task:0/device:CPU:0", send_device="/job:localhost/replica:0/task:0/device:GPU:0", send_device_incarnation=1, tensor_name="edge_16629_training/Adam/gradients/loss/dense_2_loss/sub_grad/Reshape", tensor_type=DT_FLOAT, _device="/job:localhost/replica:0/task:0/device:CPU:0"]()]]
+                                                                               [                             ] N/A% ETA:  --:--:-- | Batch: 11, Loaded: 0.0 MB                                                                               [=============================] 100% ETA:  00:00:00 / Batch: 11, Loaded: 0.0 MB
++ echo 'Done!'

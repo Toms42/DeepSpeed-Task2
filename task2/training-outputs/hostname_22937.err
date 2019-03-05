@@ -1,0 +1,34 @@
+/home/tscherli/.bashrc: line 15: bind: warning: line editing not enabled
+/home/tscherli/.bashrc: line 16: bind: warning: line editing not enabled
+/home/tscherli/.bashrc: line 17: bind: warning: line editing not enabled
+/home/tscherli/.bashrc: line 18: bind: warning: line editing not enabled
++ wait
++ nvidia-docker run -v /data/datasets:/data/datasets -v /home/tscherli:/home/tscherli tscherli/alphatraining python3 /data/datasets/tscherli/task2/train/resbase/resgates1.py
+2019-03-05 20:17:07.715906: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-03-05 20:17:08.029719: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1432] Found device 0 with properties: 
+name: TITAN X (Pascal) major: 6 minor: 1 memoryClockRate(GHz): 1.531
+pciBusID: 0000:02:00.0
+totalMemory: 11.91GiB freeMemory: 11.75GiB
+2019-03-05 20:17:08.274592: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1432] Found device 1 with properties: 
+name: TITAN X (Pascal) major: 6 minor: 1 memoryClockRate(GHz): 1.531
+pciBusID: 0000:03:00.0
+totalMemory: 11.91GiB freeMemory: 11.75GiB
+2019-03-05 20:17:08.275565: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0, 1
+2019-03-05 20:17:09.217210: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-03-05 20:17:09.217280: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 1 
+2019-03-05 20:17:09.217288: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N Y 
+2019-03-05 20:17:09.217292: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 1:   Y N 
+2019-03-05 20:17:09.217834: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11374 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:02:00.0, compute capability: 6.1)
+2019-03-05 20:17:09.218822: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:1 with 11374 MB memory) -> physical GPU (device: 1, name: TITAN X (Pascal), pci bus id: 0000:03:00.0, compute capability: 6.1)
+Using TensorFlow backend.
+/usr/local/lib/python3.5/dist-packages/keras_applications/resnet50.py:265: UserWarning: The output shape of `ResNet50(include_top=False)` has been changed since Keras 2.2.0.
+  warnings.warn('The output shape of `ResNet50(include_top=False)` '
+/data/datasets/tscherli/task2/train/resbase/resgates1.py:150: UserWarning: Update your `Conv2D` call to the Keras 2 API: `Conv2D(512, (3, 2), kernel_initializer="he_normal", activation="relu")`
+  model.add(Conv2D(512,3,2, activation="relu",kernel_initializer='he_normal'))
+/data/datasets/tscherli/task2/train/resbase/resgates1.py:151: UserWarning: Update your `Conv2D` call to the Keras 2 API: `Conv2D(256, (3, 2), kernel_initializer="he_normal", activation="relu")`
+  model.add(Conv2D(256,3,2, activation="relu",kernel_initializer='he_normal'))
+/data/datasets/tscherli/task2/train/resbase/resgates1.py:152: UserWarning: Update your `Conv2D` call to the Keras 2 API: `Conv2D(128, (3, 2), kernel_initializer="he_normal", activation="relu")`
+  model.add(Conv2D(128,3,2, activation="relu",kernel_initializer='he_normal'))
+/data/datasets/tscherli/task2/train/resbase/resgates1.py:153: UserWarning: Update your `Conv2D` call to the Keras 2 API: `Conv2D(64, (3, 2), kernel_initializer="he_normal", activation="relu")`
+  model.add(Conv2D(64,3,2, activation="relu",kernel_initializer='he_normal'))
++ echo 'Done!'

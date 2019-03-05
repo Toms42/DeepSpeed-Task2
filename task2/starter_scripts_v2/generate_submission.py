@@ -13,7 +13,7 @@ from random import shuffle
 from generate_results import *
 import time
 
-DATADIR ='/data/datasets/tscherli/Data_Training/'
+DATADIR ='/data/datasets/tscherli/Data_LeaderboardTesting/'
 
 img_file = glob.glob(DATADIR+'*.JPG')
 img_keys = [img_i.split('/')[-1] for img_i in img_file]
@@ -50,5 +50,5 @@ freq = np.round(1/mean_time,2)
 print('95% confidence interval for inference time is {0:.2f} +/- {1:.4f}.'.format(mean_time,ci_time))
 print('Operating frequency from loading image to getting results is {0:.2f}.'.format(freq))
 
-with open('my_submission-300x-650e-133p33p-30-training.json', 'w') as f:
+with open('my_submission-aug300x-400e-rn3s3s3s.json', 'w') as f:
     json.dump(pred_dict, f)

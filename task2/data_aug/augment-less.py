@@ -165,7 +165,6 @@ for i in range(len(filenames)):
   for j in range(EXPLODEFACTOR):
     destname = filename + "_variant" + str(j) + ".JPG"
     imgw,labelw = randomAffine(img,label)
-    labelDict[destname] = [labelw]
 
     # Drop frames where gate is no longer in view
     pairs = pairwise(labelw)
@@ -176,6 +175,7 @@ for i in range(len(filenames)):
 
     if not skip:
       imgw = randomColor(imgw)
+      labelDict[destname] = [labelw]
 
     # Draw labels if directed:
     if DRAWLABELS:

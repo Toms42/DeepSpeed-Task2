@@ -20,9 +20,9 @@ from skimage.io import imread
 from skimage.transform import resize
 import glob
 
-IMGDIR = '/data/datasets/tscherli/augmented/'
-OUTDIR = '/data/datasets/tscherli/Outdir/Augmented-drawn/'
-JSON_PRED = '/data/datasets/tscherli/augmentedlabels.json'
+IMGDIR = '/data/datasets/tscherli/Data_LeaderboardTesting/'
+OUTDIR = '/data/datasets/tscherli/Outdir/aug300x-400e-rn3s3s3s/'
+JSON_PRED = '/data/datasets/tscherli/starter_scripts_v2/my_submission-aug300x-400e-rn3s3s3s.json'
 JSON_TRUTH = '/data/datasets/tscherli/training_GT_labels_v2.json'
 NOGT = True
 IMGH = 864

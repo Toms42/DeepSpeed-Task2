@@ -7,8 +7,8 @@
 #SBATCH --cpus-per-task=1
 #SBATCH -t 1-00:00              # Runtime in D-HH:MM
 #SBATCH -p gpu                  # Partition to submit to
-#SBATCH --gres=gpu:4            # Number of gpus
-#SBATCH --mem=20000             # Memory pool for all cores (see also --mem-per-cpu)
+#SBATCH --gres=gpu:2            # Number of gpus
+#SBATCH --mem=10000             # Memory pool for all cores (see also --mem-per-cpu)
 #SBATCH -o training-outputs/hostname_%j.out      # File to which STDOUT will be written
 #SBATCH -e training-outputs/hostname_%j.err      # File to which STDERR will be written
 #SBATCH --mail-type=ALL         # Type of email notification- BEGIN,END,FAIL,ALL
@@ -26,7 +26,7 @@ nvidia-docker ps
 
 set -x
 
-nvidia-docker run -v /data/datasets:/data/datasets -v /home/tscherli:/home/tscherli tscherli/alphatraining python3 /data/datasets/tscherli/task2/train/basic4.py &
+nvidia-docker run -v /data/datasets:/data/datasets -v /home/tscherli:/home/tscherli tscherli/alphatraining python3 /data/datasets/tscherli/task2/train/resbase/resgates2.py &
 
 wait
 
